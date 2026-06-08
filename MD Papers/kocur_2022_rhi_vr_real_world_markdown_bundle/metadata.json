@@ -1,0 +1,20 @@
+{
+  "source_pdf": "VR Difference for Rubber Hand.pdf",
+  "article_title": "The Rubber Hand Illusion in Virtual Reality and the Real World - Comparable but Different",
+  "authors": [
+    "Martin Kocur",
+    "Alexander Kalus",
+    "Johanna Bogon",
+    "Niels Henze",
+    "Christian Wolff",
+    "Valentin Schwind"
+  ],
+  "year": 2022,
+  "venue": "VRST '22",
+  "doi": "10.1145/3562939.3565614",
+  "bundle_files": [
+    "kocur_2022_rhi_vr_real_world_raw_page_marked.md",
+    "kocur_2022_rhi_vr_real_world_clean_reading.md",
+    "kocur_2022_rhi_vr_real_world_thesis_notes.md"
+  ]
+}
