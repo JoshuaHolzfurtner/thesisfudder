@@ -1,0 +1,20 @@
+\section{Virtual Hands, Tools, and Body Mapping}
+\label{sec:background_virtual_hands_tools_body_mapping}
+
+In many virtual embodiment studies, the virtual hand or body is treated as the primary object of embodiment. For rowing, however, the user's action is not only body-centred. It is also mediated through a physical handle, a seat, foot stretchers, and, in the boat-centred representation, virtual oars. The user's movement is therefore distributed across body parts and tools. This makes the mapping problem more complex than simply placing a virtual hand where the real hand is.
+% TODO cite: tool use and body representation / tool embodiment.
+% TODO cite: real objects and self-avatar fidelity in virtual environments.
+
+Tools can become closely integrated into action. A rower does not usually experience the handle or oar as a detached object that must be consciously controlled at every moment. Instead, skilled movement often treats the tool as part of the action system. In VR, this matters because the system can choose whether to represent the felt tool directly, as in an ergometer handle, or to transform it into a sport-specific tool, as in a virtual oar.
+% TODO cite: tool use/body schema literature, e.g. Martel et al. or Di Pino et al. if used.
+
+This distinction is central for the two conditions in this thesis. In the ergometer-congruent mode, the visible apparatus can remain close to the physical one. The user pulls an ergometer handle and sees a virtual handle and body movement that follow the same basic logic. The virtual representation is therefore anchored in the physical apparatus. This may support embodiment because visual, proprioceptive, and haptic cues point toward the same object relation.
+
+In the boat-centred mode, the same physical action is interpreted as rowing a boat. The user still holds a real ergometer handle, but the virtual representation may show hands, oars, blades, and a moving shell. This is more meaningful as a depiction of the sport, but it introduces a representational translation. The felt handle and the seen oar are not identical tools. The system must therefore preserve enough timing and controllability for the user to accept the mapping, while allowing the visual scene to behave like rowing on water.
+
+Virtual hands are especially important in this translation. Hands are visually salient, close to the user's body, and directly involved in the stroke. If virtual hands are spatially aligned with the felt hands, they can strengthen the link between the physical and virtual body. If they are moved into positions required by the oar animation, they may look more correct as rowing hands, but less directly matched to the felt handle path.
+% TODO cite: virtual hand illusion / detached virtual hands / visuomotor feedback studies.
+
+The body mapping problem extends beyond the hands. Rowing is a coordinated full-body action. The legs, trunk, arms, and seat movement together define the stroke. A system that tracks only the handle may reproduce the rhythm of rowing but miss important bodily cues. A system that also estimates seat position and body posture can create a more coherent avatar, but still has to decide whether that avatar should follow the ergometer action or the boat action.
+
+For this reason, this thesis treats body mapping as an embodied design variable rather than only an implementation detail. The same physical stroke can be mapped with different priorities. One mapping can privilege correspondence with the user's felt motion. Another can privilege the recognizable structure of on-water rowing. The question is not simply which mapping is more realistic in a visual sense, but which mapping better supports the user's experience of agency, ownership, and self-location.

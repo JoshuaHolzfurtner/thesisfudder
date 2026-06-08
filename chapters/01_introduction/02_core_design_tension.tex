@@ -1,0 +1,16 @@
+\section{The Core Design Tension}
+\label{sec:introduction_core_design_tension}
+
+A rowing ergometer and a rowing boat do not provide the same movement interface. On an ergometer, the user sits on a sliding seat and pulls a handle along a constrained path. In a rowing boat, the rower interacts with oars that rotate around oarlocks, blades that interact with water, and a boat that moves relative to the environment. Even when the training movement is related, the physical apparatus and spatial logic are different.
+% TODO cite: rowing biomechanics / ergometer vs on-water rowing comparison.
+
+A VR rowing system can respond to this difference in at least two plausible ways. In an ergometer-congruent representation, the virtual body, handle, and rowing apparatus are aligned primarily with the user's real machine and movement. The visible hands and handle can remain close to where the user feels them, and the avatar can be animated around the actual handle path and seat motion. This preserves the physical logic of the user's current interaction.
+
+In a boat-centric representation, the system instead prioritizes the visual and sport-specific logic of rowing on water. The user may appear to sit in a boat, move through a river, and row with oars. This can make the virtual scene more recognizable as rowing, but it may require transforming the user's real handle movement into a virtual oar movement that does not fully coincide with the felt motion of the hands and handle.
+
+The comparison is therefore not between a real and an artificial representation of rowing. Both representations are artificial in different ways. The ergometer-congruent condition preserves the physical logic of the user's actual device and movement, but may depict an indoor machine as if it were moving through a virtual rowing environment. The boat-centric condition preserves the visual and cultural logic of the sport, but must transform the user's straight ergometer handle movement into a boat-and-oar action. There is no neutral third option in which the indoor ergometer becomes on-water rowing without remainder.
+
+This makes VR indoor rowing a useful case for studying a broader XR design problem. Many XR sport and exercise systems use stationary or simplified physical equipment to represent more complex activities. The system can either make the virtual action correspond closely to the user's real movement, or it can transform the movement to better match the represented activity. Both choices solve one part of the problem while introducing another.
+
+In this thesis, this design problem is framed as a trade-off between visuomotor congruence and realistic sport depiction. Visuomotor congruence refers to the correspondence between the user's performed movement and the movement they see in the virtual environment. Realistic sport depiction refers to the extent to which the virtual scene and action resemble the sport being represented. The two can support each other, but in indoor rowing they can also come apart.
+% TODO cite: visuomotor congruence / agency / embodiment source.

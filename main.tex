@@ -1,0 +1,125 @@
+\documentclass[12pt,a4paper]{report}
+
+% ------------------------------------------------------------
+% Basic preamble and packages for the thesis
+% ------------------------------------------------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{csquotes}
+
+% Better spacing and margins can be adjusted later if needed.
+% \usepackage[a4paper,margin=2.5cm]{geometry}
+
+% For including a temporary title page PDF/image if needed later.
+\usepackage{pdfpages}
+
+% Hyperlinks and cross-references.
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+% ------------------------------------------------------------
+% Draft helper macros
+% ------------------------------------------------------------
+
+% Visible draft TODOs in the compiled PDF.
+% Later, for the final version, replace the definition with:
+% \newcommand{\drafttodo}[1]{}
+\newcommand{\drafttodo}[1]{%
+  \par\noindent{\color{orange}\textbf{TODO:} #1}\par%
+}
+
+% Visible draft notes in the compiled PDF.
+% Useful for conceptual reminders that are not exactly citation TODOs.
+% Later, for the final version, replace with:
+% \newcommand{\draftnote}[1]{}
+\newcommand{\draftnote}[1]{%
+  \par\noindent{\color{blue!70!black}\textbf{Draft note:} #1}\par%
+}
+
+% ------------------------------------------------------------
+% Bibliography setup
+% ------------------------------------------------------------
+
+\usepackage[
+  backend=biber,
+  style=apa
+]{biblatex}
+
+% Include your bibliography file here.
+% New entries can be added to ``references.bib``.
+\addbibresource{references.bib}
+
+% ------------------------------------------------------------
+% Metadata
+% ------------------------------------------------------------
+
+\title{Visuomotor Congruence versus Realistic Sport Depiction for Virtual Reality Rowing}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+% ------------------------------------------------------------
+% Front matter
+% ------------------------------------------------------------
+
+% The title page itself should usually not show a page number.
+\pagenumbering{roman}
+
+% Option A: regular LaTeX front matter file.
+%\input{frontmatter/title_page}
+
+% Option B for temporary full-page image/PDF title page:
+% Convert your PNG title page to PDF and use this instead:
+\includepdf[pages=1]{frontmatter/kopelasia_title_page.pdf}
+
+\input{frontmatter/declaration}
+\input{frontmatter/abstract}
+\input{frontmatter/acknowledgements}
+\input{frontmatter/abbreviations}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+% ------------------------------------------------------------
+% Main matter
+% ------------------------------------------------------------
+
+% Start normal thesis page numbering here.
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Include each chapter. These files reside in the ``chapters/`` directory.
+\input{chapters/01_introduction}
+\input{chapters/02_theoretical_background}
+\input{chapters/03_system_prototype}
+\input{chapters/04_study_design}
+\input{chapters/05_results}
+\input{chapters/06_discussion}
+\input{chapters/07_conclusion}
+
+% ------------------------------------------------------------
+% Appendices
+% ------------------------------------------------------------
+
+\appendix
+\input{appendices/appendix_a_questionnaires}
+\input{appendices/appendix_b_study_materials}
+\input{appendices/appendix_c_additional_results}
+\input{appendices/appendix_d_system_details}
+\input{appendices/appendix_e_ai_assistance_statement}
+
+% ------------------------------------------------------------
+% Bibliography
+% ------------------------------------------------------------
+
+\printbibliography
+
+\end{document}
