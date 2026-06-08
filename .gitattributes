@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Store text with LF everywhere — ends the CRLF/LF churn between Mac & Windows
+* text=auto eol=lf
+
+# Never rewrite these
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary

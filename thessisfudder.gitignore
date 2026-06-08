@@ -1,0 +1,46 @@
+# --- macOS junk ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows junk ---
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- LaTeX build artifacts (regenerated on every compile) ---
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.dvi
+
+# --- editor temp files ---
+*.swp
+*~
+
+# NOTE: *.pdf is deliberately NOT ignored — your literature PDFs are content you want tracked.
+# To skip ONLY the compiled thesis output, add it by exact name, e.g.:
+#   main.pdf
