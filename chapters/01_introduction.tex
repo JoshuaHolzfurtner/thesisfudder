@@ -1,10 +1,125 @@
 \chapter{Introduction}
 \label{chap:introduction}
 
-\input{chapters/01_introduction/01_motivation}
-\input{chapters/01_introduction/02_core_design_tension}
-\input{chapters/01_introduction/03_embodiment_and_experiential_evaluation}
-\input{chapters/01_introduction/04_research_gap}
-\input{chapters/01_introduction/05_research_objectives_and_questions}
-\input{chapters/01_introduction/06_contributions}
-\input{chapters/01_introduction/07_thesis_structure}
+\section{Motivation}
+\label{sec:introduction_motivation}
+
+Indoor rowing is a physically demanding and technically structured form of exercise. Unlike many stationary fitness activities, rowing involves a coordinated movement in which legs, trunk, arms, seat, handle, and rhythm are tightly coupled. On a rowing ergometer, this movement is made available indoors through a fixed training device: the user moves back and forth on a sliding seat and pulls a handle along a constrained path. Ergometer rowing can reproduce important aspects of rowing training, but it is not identical to rowing on water, especially where boat motion, oar handling, and the interaction between oar and water shape the stroke \parencite{soperHume2004rowingTechnique,lamb1989kinematicComparison,rauterEtAl2013rowingTransfer}.
+
+Virtual reality offers an opportunity to reintroduce some of the experiential context that the ergometer removes. A virtual rowing system can place the user in a boat, on a river, or in a training environment that visually resembles the sport more closely than a conventional ergometer display. Prior rowing and VR sport systems have already shown how stationary exercise can be connected to virtual environments, avatars, social context, and visually represented movement through space \parencite{murrayEtAl2016vrRowingPresence,arndtEtAl2018vrRowingWorkouts,neumannEtAl2018interactiveVrSport}. In such systems, optic flow and visual motion may also contribute to an impression of self-motion, even when the user's physical body remains in one place \parencite{niehorster2021opticFlowHistory,palmisanoEtAl2015vectionChallenges}.
+
+However, this opportunity also introduces a design problem. The ergometer makes rowing available indoors by replacing the boat and oars with a machine. Virtual reality can visually restore the boat, oars, water, and movement through an environment, but it cannot remove the fact that the user is still physically rowing on an ergometer. The system must therefore decide how the real movement should become a virtual rowing action.
+
+This decision matters because indoor rowing in VR is not simply a question of adding a more attractive background to exercise. The user performs a real, repetitive, forceful movement while seeing a mediated version of that movement in a virtual environment. The virtual scene can make the activity feel more like rowing on water, but the physical interface remains the ergometer. As a result, the system must balance two different forms of fidelity: fidelity to the user's actual sensorimotor interaction with the machine, and fidelity to the visual and cultural form of the sport.
+
+This thesis investigates that balance. It examines VR indoor rowing as a case where a physical exercise device stands in for a more complex sport action. The central question is whether the virtual representation should preserve the user's actual interaction with the ergometer as directly as possible, or transform that interaction into the boat- and oar-based action associated with rowing on water.
+
+\section{The Core Design Tension}
+\label{sec:introduction_core_design_tension}
+
+A rowing ergometer and a rowing boat do not provide the same movement interface. On an ergometer, the user sits on a sliding seat and pulls a handle along a constrained path. In a rowing boat, the rower interacts with oars that rotate around oarlocks, blades that interact with water, and a boat that moves relative to the environment. Even when the training movement is related, the physical apparatus and spatial logic are different \parencite{lamb1989kinematicComparison,soperHume2004rowingTechnique,rauterEtAl2013rowingTransfer}.
+
+This thesis refers to the two resulting representation strategies as the \emph{erg-centered} and \emph{boat-centered} modes. In the erg-centered mode, the virtual body, handle, and rowing apparatus are aligned primarily with the user's real machine and movement. The visible hands and handle can remain close to where the user feels them, and the avatar can be animated around the actual handle path and inferred body motion. This preserves the physical logic of the user's current interaction.
+
+In the boat-centered mode, the system instead prioritizes the visual and sport-specific logic of rowing on water. The user may appear to sit in a boat, move through a river, and row with oars. This can make the virtual scene more recognizable as rowing, but it may require transforming the user's real handle movement into a virtual oar movement that does not fully coincide with the felt motion of the hands and handle.
+
+The comparison is therefore not between a real and an artificial representation of rowing. Both representations are artificial in different ways. The erg-centered condition preserves the physical logic of the user's actual device and movement, but may depict an indoor machine as if it were moving through a virtual rowing environment. The boat-centered condition preserves the visual and cultural logic of the sport, but must transform the user's straight ergometer handle movement into a boat-and-oar action. There is no neutral third option in which the indoor ergometer becomes on-water rowing without remainder.
+
+This makes VR indoor rowing a useful case for studying a broader XR design problem. Many XR sport and exercise systems use stationary or simplified physical equipment to represent more complex activities. The system can either make the virtual action correspond closely to the user's real movement, or it can transform the movement to better match the represented activity. Both choices solve one part of the problem while introducing another.
+
+In this thesis, this design problem is framed as a trade-off between visuomotor congruence and sport depiction. Visuomotor congruence refers to the correspondence between the user's performed movement and the movement they see in the virtual environment. Sport depiction refers to the extent to which the virtual scene and action resemble the sport being represented. These two values can support each other, but in indoor rowing they can also come apart: a visually convincing boat scene can still transform the user's action, while a physically congruent ergometer representation can remain less recognizable as on-water rowing \parencite{harrisEtAl2019visionForAction,kilteniEtAl2012senseEmbodiment,lamb1989kinematicComparison,rauterEtAl2013rowingTransfer}.
+
+\section{Embodiment and Experiential Evaluation}
+\label{sec:introduction_embodiment_experience}
+
+The trade-off between erg-centered and boat-centered representation is especially relevant for virtual embodiment. Virtual embodiment concerns the extent to which users experience a virtual body or body part as related to their own body. Commonly discussed components include the sense of agency over the virtual body's actions, the sense of body ownership, and self-location in relation to the virtual body or space \parencite{kilteniEtAl2012senseEmbodiment}.
+
+The erg-centered condition is closely related to principles from virtual hand and body ownership research. In such paradigms, embodiment can be influenced by whether seen and felt body positions, movements, or touches are spatially and temporally aligned. In the rowing case, the real and virtual hands or handle can potentially be placed in close correspondence: the user feels the physical handle and sees the virtual hands or handle move in the same way. Classic and movement-based body-ownership paradigms show why this correspondence is relevant, while also cautioning against treating ownership and agency as a single undifferentiated response \parencite{botvinickCohen1998rubberHand,kalckertEhrsson2012movingRubberHand,kilteniEtAl2012senseEmbodiment}.
+
+However, rowing also differs from classic hand-ownership paradigms. It is an active, rhythmic, tool-mediated, whole-body exercise rather than a passive illusion involving a single limb. The user does not merely observe a virtual hand; they exert force, coordinate multiple body segments, and interact with a physical machine. This makes indoor rowing an interesting extension of embodiment questions into a sport and exercise context \parencite{rauterEtAl2013rowingTransfer}.
+
+The boat-centered condition may be less directly congruent with the user's felt hand and handle movement, but it may better express what users understand as rowing. A virtual boat, oars, water, and forward movement can contribute to perceived sport realism and plausibility. For a rower or rowing-interested user, this representation may feel more meaningful or more appropriate to the activity, even if the mapping between real and virtual movement is less direct. This distinction is related to the broader difference between a visually plausible situation and a sensorimotor action that fully matches the user's physical interaction \parencite{slater2009placePlausibility,harrisEtAl2019visionForAction}.
+
+For this reason, the thesis does not treat embodiment as the only relevant outcome. The primary focus remains on embodiment-related experience, particularly agency, ownership, self-location, and overall sense of embodiment. However, the study also considers perceived rowing realism and user preference as exploratory design-facing measures. A representation can be sensorimotor-congruent but still be experienced as a poor depiction of rowing; conversely, a representation can be less congruent but preferred because it better captures the intended sport scenario.
+
+Preference is therefore treated as an exploratory complement rather than as the main theoretical construct. It is included because practical XR sport systems are not evaluated only by whether they produce embodiment, but also by whether users find the representation convincing, appropriate, and desirable for the activity. At the same time, preference must be interpreted cautiously, because it may depend on visual polish, prior rowing experience, individual expectations, and details of the implementation.
+
+\section{Research Gap}
+\label{sec:introduction_research_gap}
+
+Research on virtual embodiment has shown that multisensory congruence, visuomotor synchrony, and avatar representation can influence how users experience virtual bodies and actions \parencite{kilteniEtAl2012senseEmbodiment,kalckertEhrsson2012movingRubberHand,gonzalezFrancoPeck2018avatarEmbodiment}.
+
+A separate body of work has explored virtual reality and interactive systems for sport, exercise, and rowing. These systems often aim to support training, motivation, feedback, or presence by augmenting stationary exercise with virtual environments, avatars, or simulated sport contexts \parencite{neumannEtAl2018interactiveVrSport,murrayEtAl2016vrRowingPresence,arndtEtAl2018vrRowingWorkouts,rauterEtAl2013rowingTransfer}.
+
+Existing rowing-related VR and simulation work already contains many of the ingredients relevant to this thesis. Prior systems have connected ergometer rowing to virtual environments, visualized rowing avatars or boats, investigated feedback and performance, or built rowing simulators with boat- and oar-centered interaction models. These works show that VR rowing, rowing simulation, avatar animation, and sport-specific rowing feedback are established design spaces. However, they generally treat the physical-to-virtual rowing mapping as part of the system design rather than as the central experimental variable.
+
+In the reviewed material, the specific comparison addressed in this thesis was not identified as a controlled head-to-head study. Existing studies tend to compare VR against non-VR rowing, evaluate feedback or visualization techniques, manipulate avatar properties, adjust simulator parameters, or study motivational and social factors. They do not appear to isolate the physical-to-virtual rowing mapping itself as the main independent variable.
+
+More specifically, the reviewed material did not identify a controlled study that holds the physical rowing setup constant while comparing an erg-centered mapping against a boat-centered mapping as the primary experimental factor. Such a comparison asks whether the avatar and rowing apparatus should be solved primarily in relation to the real ergometer, or transformed into the coordinate logic of a virtual boat and oar system. This absence claim is therefore treated cautiously: it describes the reviewed material and motivates the present study, rather than asserting that no such work could exist outside the reviewed scope.
+
+This gap is important because the mapping choice is not only a technical implementation detail. It changes the relation between the user's body, the physical machine, and the virtual action they see. As a result, it may influence agency, body ownership, self-location, perceived rowing realism, and preference. If the mapping is not isolated experimentally, it remains unclear whether a more sport-centered rowing depiction supports the experience more strongly than a more sensorimotor-congruent ergometer depiction, or whether the opposite is the case.
+
+The thesis addresses this gap by focusing on the mapping choice itself. It compares an erg-centered representation and a boat-centered representation within the same general VR rowing context. The aim is not to evaluate every aspect of VR rowing, but to examine how this specific design choice shapes embodied and experiential responses.
+
+\section{Research Objectives and Questions}
+\label{sec:introduction_research_objectives}
+
+The objective of this thesis is to investigate how different representation strategies in VR indoor rowing influence embodiment-related and experiential outcomes. Specifically, the thesis compares an erg-centered representation with a boat-centered representation. The comparison is guided by the assumption that both strategies can be justified by different design goals: the erg-centered mode may support sensorimotor alignment and agency, while the boat-centered mode may support perceived rowing realism and the impression of rowing on water.
+
+The first objective is to design and implement a VR rowing prototype that can represent the same physical ergometer activity in two different ways. In the erg-centered mode, the system emphasizes direct correspondence between the user's real movement and the virtual body or handle. In the boat-centered mode, the system emphasizes a rowing scene with boat and oar depiction, even if this requires transforming the user's handle movement into a more sport-like visual movement.
+
+The second objective is to use this prototype as a research instrument. The system is not only an application prototype, but also a means of examining how physical-to-virtual movement mapping affects user experience. This requires the two modes to be comparable in as many respects as possible, so that the central difference remains the relation between the real ergometer movement and the virtual rowing depiction.
+
+The third objective is to evaluate the two representation modes with respect to embodiment-related constructs. These include sense of agency, body ownership, self-location, and overall sense of embodiment. In addition, the study considers perceived rowing realism, comfort, and preference as exploratory design-facing outcomes.
+
+The thesis is guided by the following main research question:
+
+\begin{quote}
+How does the trade-off between visuomotor congruence and sport depiction affect embodiment, perceived rowing realism, and user preference in VR indoor rowing?
+\end{quote}
+
+This main question is divided into the following subquestions:
+
+\begin{enumerate}
+    \item How can an erg-centered and a boat-centered rowing representation be implemented while keeping the physical task and virtual rowing context broadly comparable?
+
+    \item How do the two representation modes differ in embodiment-related experience, particularly sense of agency, body ownership, self-location, and overall sense of embodiment?
+
+    \item How do the two representation modes differ in perceived rowing realism, comfort, and user preference?
+
+    \item What do the results suggest for the design of XR sport and exercise systems in which physical equipment and virtual sport actions do not fully coincide?
+\end{enumerate}
+
+These questions are intentionally framed as comparative and exploratory rather than as claims of expected superiority. It is plausible that the erg-centered mode supports stronger agency because the visible movement more closely matches the user's physical action. It is also plausible that the boat-centered mode supports a stronger sense of rowing realism because it better represents the visual and cultural form of the sport. The study therefore examines how these dimensions interact rather than assuming that one form of fidelity is always preferable.
+
+\section{Contributions}
+\label{sec:introduction_contributions}
+
+This thesis makes three main contributions.
+
+First, it presents the design and implementation of a VR indoor rowing prototype that supports two distinct representation strategies for the same physical rowing activity. The prototype distinguishes between an erg-centered mode and a boat-centered mode. This distinction makes it possible to examine a design trade-off that is often implicit in XR sport systems: whether virtual representation should prioritize the user's actual input apparatus and body movement, or the visual form of the sport being simulated.
+
+Second, the thesis contributes an embodiment-oriented comparison of these two representation strategies. Rather than treating immersion, realism, or motivation as broad and undifferentiated goals, the thesis focuses on how movement mapping may affect specific components of embodied experience. In particular, it considers sense of agency, body ownership, self-location, and overall sense of embodiment as relevant constructs for evaluating rowing representation in VR.
+
+Third, the thesis provides design implications for researchers and developers of XR sport and exercise systems in which physical equipment and virtual sport depiction do not fully coincide. The rowing ergometer is a clear example of this situation, but the underlying problem also applies to other stationary training systems where real input devices are used to represent more complex sport actions. The thesis therefore contributes to a broader discussion about how embodied XR systems should balance sensorimotor congruence, visual plausibility, sport-specific realism, and user preference.
+
+The intended contribution is not a general claim that one representation strategy is universally superior. Instead, the thesis aims to clarify what is gained and what may be lost when a VR sport system chooses between direct physical congruence and sport depiction. Both strategies solve part of the design problem while introducing another. A congruent representation may feel controllable and bodily grounded, while a sport-centered representation may feel more meaningful or recognizable as rowing. Understanding this trade-off can help future systems make more deliberate representation choices.
+
+In practical terms, the thesis also documents the technical and methodological considerations involved in building such a comparison. These include alignment between physical and virtual rowing spaces, avatar motion mapping, control of visual confounds, and the selection of measures for evaluating embodiment and experience. These details are part of the contribution because the comparison depends not only on the final visual result, but on the system's ability to isolate the relevant design difference.
+
+\section{Thesis Structure}
+\label{sec:introduction_thesis_structure}
+
+The remainder of this thesis is structured as follows.
+
+Chapter~\ref{chap:theoretical_background} introduces the theoretical and empirical background for the work. It discusses virtual embodiment, sense of agency, body ownership, self-location, visuomotor congruence, and related concepts such as presence and vection. It also reviews relevant work on VR exercise, sport simulation, and rowing-related systems. The chapter establishes the conceptual basis for treating movement mapping as a central design factor in VR rowing.
+
+Chapter~\ref{chap:system_prototype} describes the VR rowing prototype developed for this thesis. It presents the hardware and software setup, the alignment and tracking approach, and the two representation modes. The erg-centered mode and boat-centered mode are described in terms of their mapping strategies, avatar motion, and intended experiential differences. The chapter also discusses implementation constraints and design decisions that affect the comparison.
+
+Chapter~\ref{chap:study_design} presents the study design used to evaluate the two representation modes. It describes the experimental conditions, participant procedure, measures, and analysis approach. Particular attention is given to how embodiment-related constructs, perceived rowing realism, comfort, and preference are measured. The chapter also explains how the comparison is structured to reduce confounds between the two modes.
+
+Chapter~\ref{chap:results} reports the results of the evaluation. Quantitative and qualitative findings are presented with respect to the research questions, including measures related to agency, ownership, self-location, embodiment, perceived realism, comfort, and preference where applicable. The chapter focuses on reporting the observed outcomes without extensive interpretation.
+
+Chapter~\ref{chap:discussion} interprets the findings in relation to the theoretical background and research questions. It discusses whether the results support the importance of visuomotor congruence, sport-centered depiction, or a more nuanced relationship between the two. The chapter also considers limitations of the prototype and study design, as well as implications for future XR sport systems.
+
+Chapter~\ref{chap:conclusion} concludes the thesis by summarizing the main findings and contributions. It revisits the central trade-off between erg-centered and boat-centered representation and outlines directions for future work in VR rowing, embodied interaction, and XR sport design.
