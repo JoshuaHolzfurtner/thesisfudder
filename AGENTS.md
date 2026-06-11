@@ -82,3 +82,84 @@ If a paper text contains useful evidence, add a LaTeX comment near the relevant 
 
 ```tex
 % SOURCE-CHECK: smith2020example, p. 4, body ownership vs agency
+```
+
+### Strict source-audit protocol
+
+For literature-heavy thesis sections, prefer a two-layer citation audit:
+
+1. **Inline `SOURCE-CHECK` comments** near the relevant LaTeX claim.
+2. **Chapter citation dossier files** in `notes/chapters/` or `ai_logs/` when a larger source audit is being performed.
+
+A `SOURCE-CHECK` comment should be used for citation-relevant claims when the source support has been checked or partially checked. Use the richest available form without inventing missing details:
+
+```tex
+% SOURCE-CHECK:
+%   key: kalckertEhrsson2017ownershipOnset
+%   md: literature/summaries/kalckert_ehrsson_2017.md, lines 42-58
+%   pdf: p. 6
+%   evidence: active synchronous movement produced stronger/faster ownership than passive synchronous movement
+%   confidence: verified
+```
+
+If only partial support is known, mark it clearly:
+
+```tex
+% SOURCE-CHECK:
+%   key: TODO:CITE
+%   md: unknown
+%   pdf: unknown
+%   evidence: claim needs source support
+%   confidence: needs manual check
+```
+
+Use these confidence labels:
+
+- `verified` — source file, evidence, and page/line anchor were checked.
+- `likely` — source appears relevant, but exact page, line, or wording still needs human verification.
+- `needs manual check` — the claim needs evidence or the proposed source has not been checked closely enough.
+
+When adding source-audit comments:
+
+- Prefer `references.bib` keys that already exist.
+- Include a supporting `.md` path and line range when available.
+- Include the original PDF page when available.
+- Include a short evidence snippet or paraphrase so the comment remains useful if line numbers shift.
+- Do not invent page numbers, line numbers, quotation text, citation keys, authors, years, DOIs, or results.
+- If a source is useful but not yet verified, use `TODO:VERIFY` or `confidence: likely` instead of presenting it as checked.
+- Keep source-audit comments in LaTeX comments so they do not appear in the compiled PDF.
+
+### Chapter-first and paper-first citation workflow
+
+Use the citation workflow in this order unless the author asks otherwise:
+
+1. **Chapter-first pass.** Read the target chapter and identify claims that need sources. Add citation keys, `TODO:CITE`, `TODO:VERIFY`, and `SOURCE-CHECK` comments near the relevant claims. This keeps the thesis argument driven by the chapter text rather than by citation stuffing.
+2. **Paper-first audit.** After the chapter is stable, review core papers against the chapter to find missed source opportunities, stronger source anchors, or claims that should be corrected.
+3. **Final cleanup.** Keep only useful LaTeX citation commands in the final text. Leave `SOURCE-CHECK` comments only if the author wants an auditable draft; otherwise remove or move them into a dossier before final submission.
+
+For chapter dossiers, create or update a human-readable Markdown file such as:
+
+```md
+# Chapter 4 Citation Dossier
+
+## Claim
+Ownership and agency are measured separately because they can diverge.
+
+## Location
+chapters/04_study_design.tex, Section 4.5
+
+## Source
+kalckertEhrsson2012movingRHI
+
+## Evidence
+Short paraphrase or quote-sized snippet from the decomposed `.md` or source text.
+
+## Anchors
+- MD: literature/summaries/example.md, lines 42-58
+- PDF: p. 6
+
+## Confidence
+verified / likely / needs manual check
+```
+
+Do not use dossiers to add new claims to the thesis. Use them only to audit, support, or flag claims already present in the chapter.
