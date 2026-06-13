@@ -1,0 +1,1395 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{arndtEtAl2018vrRowingWorkouts}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d7446b0e86b0861f2eafc318b1fd8c98}{%
+           family={Arndt},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8162b8dcca39653b52e4ae8048e12a26}{%
+           family={Perkis},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82517d721aaccd42b944f3ab6ae18c78}{%
+           family={Voigt-Antons},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={J.-N.},
+           giveni={J\bibinithyphendelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{2ce0cbaf0c6cb4150593f62748279a33}
+      \strng{fullhash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{fullhashraw}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{bibnamehash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{authorbibnamehash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{authornamehash}{2ce0cbaf0c6cb4150593f62748279a33}
+      \strng{authorfullhash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{authorfullhashraw}{f320bad2693611d9c96e4c86acdf401c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{MMSports'18}: Proceedings of the 1st International Workshop on Multimedia Content Analysis in Sports}
+      \field{title}{Using Virtual Reality and Head-Mounted Displays to Increase Performance in Rowing Workouts}
+      \field{year}{2018}
+      \field{pages}{45\bibrangedash 50}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/3265845.3265848
+      \endverb
+    \endentry
+    \entry{gonzalezFrancoPeck2018avatarEmbodiment}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6b9daa19aaa05178822e2547cf3b35b1}{%
+           family={Gonzalez-Franco},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Mar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=651f16c50189adab5ca3978f422d910f}{%
+           family={Peck},
+           familyi={P\bibinitperiod},
+           given={Tabitha\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{fullhash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{fullhashraw}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{bibnamehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authorbibnamehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authornamehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authorfullhash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authorfullhashraw}{db4d70f1fb7457c90321e66d112a271b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Robotics and AI}
+      \field{title}{Avatar Embodiment. Towards a Standardized Questionnaire}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{pages}{74}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/frobt.2018.00074
+      \endverb
+    \endentry
+    \entry{harrisEtAl2019visionForAction}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=cc82cbb8d4d966293f445e3b94bc23b4}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1eb4a8e66cfed05d2c86b0bb3681c097}{%
+           family={Buckingham},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e8222eb0a5d349b50da30ec906a1aa7}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3133763fa6e91aaf967574b73449cb4}{%
+           family={Vine},
+           familyi={V\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fc8f3a847964e401a841036ff5dc547}
+      \strng{fullhash}{3d477d5c5653b24e6da469296666a696}
+      \strng{fullhashraw}{3d477d5c5653b24e6da469296666a696}
+      \strng{bibnamehash}{3d477d5c5653b24e6da469296666a696}
+      \strng{authorbibnamehash}{3d477d5c5653b24e6da469296666a696}
+      \strng{authornamehash}{5fc8f3a847964e401a841036ff5dc547}
+      \strng{authorfullhash}{3d477d5c5653b24e6da469296666a696}
+      \strng{authorfullhashraw}{3d477d5c5653b24e6da469296666a696}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Experimental Brain Research}
+      \field{title}{Virtually the Same? How Impaired Sensory Information in Virtual Reality May Disrupt Vision for Action}
+      \field{volume}{237}
+      \field{year}{2019}
+      \field{pages}{2761\bibrangedash 2766}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/s00221-019-05642-8
+      \endverb
+    \endentry
+    \entry{kalckertEhrsson2017ownershipOnset}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d7ac7114a4614721c84d79837955b158}{%
+           family={Kalckert},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cb0a1d433900f892eaf838714b90dfa}{%
+           family={Ehrsson},
+           familyi={E\bibinitperiod},
+           given={H.\bibnamedelimi Henrik},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{fullhash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{fullhashraw}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{bibnamehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authorbibnamehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authornamehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authorfullhash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authorfullhashraw}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{The Onset Time of the Ownership Sensation in the Moving Rubber Hand Illusion}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{344}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2017.00344
+      \endverb
+    \endentry
+    \entry{kilteniEtAl2012senseEmbodiment}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=22f7ac22a6a7e0b4fff5f7d273f43300}{%
+           family={Kilteni},
+           familyi={K\bibinitperiod},
+           given={Konstantina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc5c43a649089c4f9ff1d9b0ca4bbea9}{%
+           family={Groten},
+           familyi={G\bibinitperiod},
+           given={Raphaela},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df83b602f850d5091f5ab7de4726e66e}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={Mel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0d6a956b56fcc2401988f57948c1bb1}
+      \strng{fullhash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{fullhashraw}{8db86e88b83e006844016a9cd17340ae}
+      \strng{bibnamehash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{authorbibnamehash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{authornamehash}{d0d6a956b56fcc2401988f57948c1bb1}
+      \strng{authorfullhash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{authorfullhashraw}{8db86e88b83e006844016a9cd17340ae}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Presence}
+      \field{number}{4}
+      \field{title}{The Sense of Embodiment in Virtual Reality}
+      \field{volume}{21}
+      \field{year}{2012}
+      \field{pages}{373\bibrangedash 387}
+      \range{pages}{15}
+    \endentry
+    \entry{lamb1989kinematicComparison}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36445bba57ceaa94b8da5e424a76345d}{%
+           family={Lamb},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{fullhash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{fullhashraw}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{bibnamehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authorbibnamehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authornamehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authorfullhash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authorfullhashraw}{36445bba57ceaa94b8da5e424a76345d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Journal of Sports Medicine}
+      \field{number}{3}
+      \field{title}{A Kinematic Comparison of Ergometer and On-Water Rowing}
+      \field{volume}{17}
+      \field{year}{1989}
+      \field{pages}{367\bibrangedash 373}
+      \range{pages}{7}
+    \endentry
+    \entry{murrayEtAl2016vrRowingPresence}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=dcbadf384daca4d9769ccfd1da32bb41}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={E.\bibnamedelimi G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aad42059950b0571952f78523684e2ee}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=274bf49164e212529184d1cb125554da}{%
+           family={Moffitt},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5840a90e0db81493bd628834d77ee3b9}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff3a05ab62b3b0c9983a446598b74eb9}
+      \strng{fullhash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{fullhashraw}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{bibnamehash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{authorbibnamehash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{authornamehash}{ff3a05ab62b3b0c9983a446598b74eb9}
+      \strng{authorfullhash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{authorfullhashraw}{ab71a16353aa216fcbe06d003a61e433}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology of Sport and Exercise}
+      \field{title}{The Effects of the Presence of Others During a Rowing Exercise in a Virtual Reality Environment}
+      \field{volume}{22}
+      \field{year}{2016}
+      \field{pages}{328\bibrangedash 336}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.psychsport.2015.09.007
+      \endverb
+    \endentry
+    \entry{neumannEtAl2018interactiveVrSport}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=aad42059950b0571952f78523684e2ee}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=274bf49164e212529184d1cb125554da}{%
+           family={Moffitt},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5840a90e0db81493bd628834d77ee3b9}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d758a19eb51213749d7bb2a1947455a}{%
+           family={Loveday},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc060b90350b63812df9eed9497fc7f0}{%
+           family={Watling},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5afe9c0231b208f19359a30ad0992a11}{%
+           family={Lombard},
+           familyi={L\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8625f97c52ce12c5d9930c336cf99f9}{%
+           family={Antonova},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51bdc91d5a51a2bb0f2f5edfb5657f26}{%
+           family={Tremeer},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{259a65cd97ad8ce322b39406acfa147b}
+      \strng{fullhash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{fullhashraw}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{bibnamehash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{authorbibnamehash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{authornamehash}{259a65cd97ad8ce322b39406acfa147b}
+      \strng{authorfullhash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{authorfullhashraw}{e318d7382bb075e23a08dcbc016dabd3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Virtual Reality}
+      \field{title}{A Systematic Review of the Application of Interactive Virtual Reality to Sport}
+      \field{volume}{22}
+      \field{year}{2018}
+      \field{pages}{183\bibrangedash 198}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s10055-017-0320-5
+      \endverb
+    \endentry
+    \entry{niehorster2021opticFlowHistory}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0cbb41df5eacdcb8a48efd69dfbcd341}{%
+           family={Niehorster},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{fullhash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{fullhashraw}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{bibnamehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authorbibnamehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authornamehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authorfullhash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authorfullhashraw}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{i-Perception}
+      \field{number}{6}
+      \field{title}{Optic Flow: A History}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 49}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.1177/20416695211055766
+      \endverb
+    \endentry
+    \entry{palmisanoEtAl2015vectionChallenges}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=51599a66ae18efe90cbae4dc539496c3}{%
+           family={Palmisano},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db29cc509be9a1e97ae6f52bc784354e}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=419b4cd101dd0ca584f817bf52aa6045}{%
+           family={Schira},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e724f028b9b084d5bcce63f780ec1d}{%
+           family={Barry},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13cce27e94fbaddb453693e0f7461051}
+      \strng{fullhash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{fullhashraw}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{bibnamehash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{authorbibnamehash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{authornamehash}{13cce27e94fbaddb453693e0f7461051}
+      \strng{authorfullhash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{authorfullhashraw}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{Future Challenges for Vection Research: Definitions, Functional Significance, Measures, and Neural Bases}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{193}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2015.00193
+      \endverb
+    \endentry
+    \entry{rauterEtAl2013rowingTransfer}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=8c6a235f9b8b04a8f60b025217e01dd4}{%
+           family={Rauter},
+           familyi={R\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9ffad90a44060433bd533e957c6775}{%
+           family={Sigrist},
+           familyi={S\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1df1b7c10e49d18fa1ca5f5e07729d0e}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d328e78ecead93c4320b13a331722e00}{%
+           family={Crivelli},
+           familyi={C\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1aa6afa9713a65ed8dbc7a4f548de6f6}{%
+           family={Raai},
+           familyi={R\bibinitperiod},
+           given={Marinus},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=49162a7f3a8fe4b81a0d28a70c9e81a7}{%
+           family={Riener},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ea08b4eb1e704e09cd0d742e8d07049}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fabef80e3ffb798a458d2c5b327218b}
+      \strng{fullhash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{fullhashraw}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{bibnamehash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{authorbibnamehash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{authornamehash}{6fabef80e3ffb798a458d2c5b327218b}
+      \strng{authorfullhash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{authorfullhashraw}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{number}{12}
+      \field{title}{Transfer of Complex Skill Learning from Virtual to Real Rowing}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{e82145}
+      \range{pages}{-1}
+    \endentry
+    \entry{rothLatoschik2020veq}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f45dde7575fbc8c8becb24a5605ca664}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
+           family={Latoschik},
+           familyi={L\bibinitperiod},
+           given={Marc\bibnamedelima Erich},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{fullhash}{9b3013b519cd065db039853da568ae6a}
+      \strng{fullhashraw}{9b3013b519cd065db039853da568ae6a}
+      \strng{bibnamehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authorbibnamehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authornamehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authorfullhash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authorfullhashraw}{9b3013b519cd065db039853da568ae6a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Visualization and Computer Graphics}
+      \field{number}{12}
+      \field{title}{Construction of the Virtual Embodiment Questionnaire ({VEQ})}
+      \field{volume}{26}
+      \field{year}{2020}
+      \field{pages}{3546\bibrangedash 3556}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TVCG.2020.3023603
+      \endverb
+    \endentry
+    \entry{soperHume2004rowingTechnique}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9cdeddaa20db64aba2db6e4fd895c763}{%
+           family={Soper},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e886ea876b13d453e508e4ebfb75134}{%
+           family={Hume},
+           familyi={H\bibinitperiod},
+           given={Patria\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{fullhash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{fullhashraw}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{bibnamehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authorbibnamehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authornamehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authorfullhash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authorfullhashraw}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sports Medicine}
+      \field{number}{12}
+      \field{title}{Towards an Ideal Rowing Technique for Performance: The Contributions from Biomechanics}
+      \field{volume}{34}
+      \field{year}{2004}
+      \field{pages}{825\bibrangedash 848}
+      \range{pages}{24}
+    \endentry
+    \entry{waltemateEtAl2016latency}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0255b31331db8758e62f85424a862330}{%
+           family={Waltemate},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ced6aa5d1d7a7099694ff1aa5cf01efa}{%
+           family={Senna},
+           familyi={S\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48cb0f736b2c238af7080ac4cb8ab387}{%
+           family={Hülsmann},
+           familyi={H\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8bbfffc29622163cb72ea0ff09977e7}{%
+           family={Rohde},
+           familyi={R\bibinitperiod},
+           given={Marieke},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c48431e0e6c7e8859b56c2236ab11ef}{%
+           family={Kopp},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2c185d9d2595206307759eca5b4d058}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0765e06ad46483a64643f0c7a324057}{%
+           family={Botsch},
+           familyi={B\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{becb1830680a40bc7351472a47730f70}
+      \strng{fullhash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{fullhashraw}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{bibnamehash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{authorbibnamehash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{authornamehash}{becb1830680a40bc7351472a47730f70}
+      \strng{authorfullhash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{authorfullhashraw}{4b7343b07d8a36e8fee33883e615a167}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{VRST '16}
+      \field{title}{The Impact of Latency on Perceptual Judgments and Motor Performance in Closed-Loop Interaction in Virtual Reality}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{arndtEtAl2018vrRowingWorkouts}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d7446b0e86b0861f2eafc318b1fd8c98}{%
+           family={Arndt},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8162b8dcca39653b52e4ae8048e12a26}{%
+           family={Perkis},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82517d721aaccd42b944f3ab6ae18c78}{%
+           family={Voigt-Antons},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={J.-N.},
+           giveni={J\bibinithyphendelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{2ce0cbaf0c6cb4150593f62748279a33}
+      \strng{fullhash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{fullhashraw}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{bibnamehash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{authorbibnamehash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{authornamehash}{2ce0cbaf0c6cb4150593f62748279a33}
+      \strng{authorfullhash}{f320bad2693611d9c96e4c86acdf401c}
+      \strng{authorfullhashraw}{f320bad2693611d9c96e4c86acdf401c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{MMSports'18}: Proceedings of the 1st International Workshop on Multimedia Content Analysis in Sports}
+      \field{title}{Using Virtual Reality and Head-Mounted Displays to Increase Performance in Rowing Workouts}
+      \field{year}{2018}
+      \field{pages}{45\bibrangedash 50}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/3265845.3265848
+      \endverb
+    \endentry
+    \entry{gonzalezFrancoPeck2018avatarEmbodiment}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6b9daa19aaa05178822e2547cf3b35b1}{%
+           family={Gonzalez-Franco},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Mar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=651f16c50189adab5ca3978f422d910f}{%
+           family={Peck},
+           familyi={P\bibinitperiod},
+           given={Tabitha\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{fullhash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{fullhashraw}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{bibnamehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authorbibnamehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authornamehash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authorfullhash}{db4d70f1fb7457c90321e66d112a271b}
+      \strng{authorfullhashraw}{db4d70f1fb7457c90321e66d112a271b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Robotics and AI}
+      \field{title}{Avatar Embodiment. Towards a Standardized Questionnaire}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{pages}{74}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/frobt.2018.00074
+      \endverb
+    \endentry
+    \entry{harrisEtAl2019visionForAction}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=cc82cbb8d4d966293f445e3b94bc23b4}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1eb4a8e66cfed05d2c86b0bb3681c097}{%
+           family={Buckingham},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e8222eb0a5d349b50da30ec906a1aa7}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3133763fa6e91aaf967574b73449cb4}{%
+           family={Vine},
+           familyi={V\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fc8f3a847964e401a841036ff5dc547}
+      \strng{fullhash}{3d477d5c5653b24e6da469296666a696}
+      \strng{fullhashraw}{3d477d5c5653b24e6da469296666a696}
+      \strng{bibnamehash}{3d477d5c5653b24e6da469296666a696}
+      \strng{authorbibnamehash}{3d477d5c5653b24e6da469296666a696}
+      \strng{authornamehash}{5fc8f3a847964e401a841036ff5dc547}
+      \strng{authorfullhash}{3d477d5c5653b24e6da469296666a696}
+      \strng{authorfullhashraw}{3d477d5c5653b24e6da469296666a696}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Experimental Brain Research}
+      \field{title}{Virtually the Same? How Impaired Sensory Information in Virtual Reality May Disrupt Vision for Action}
+      \field{volume}{237}
+      \field{year}{2019}
+      \field{pages}{2761\bibrangedash 2766}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/s00221-019-05642-8
+      \endverb
+    \endentry
+    \entry{kalckertEhrsson2017ownershipOnset}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d7ac7114a4614721c84d79837955b158}{%
+           family={Kalckert},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cb0a1d433900f892eaf838714b90dfa}{%
+           family={Ehrsson},
+           familyi={E\bibinitperiod},
+           given={H.\bibnamedelimi Henrik},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{fullhash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{fullhashraw}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{bibnamehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authorbibnamehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authornamehash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authorfullhash}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \strng{authorfullhashraw}{c6ab6d7ba10fa29c00b97232a04b7745}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{The Onset Time of the Ownership Sensation in the Moving Rubber Hand Illusion}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{344}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2017.00344
+      \endverb
+    \endentry
+    \entry{kilteniEtAl2012senseEmbodiment}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=22f7ac22a6a7e0b4fff5f7d273f43300}{%
+           family={Kilteni},
+           familyi={K\bibinitperiod},
+           given={Konstantina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc5c43a649089c4f9ff1d9b0ca4bbea9}{%
+           family={Groten},
+           familyi={G\bibinitperiod},
+           given={Raphaela},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df83b602f850d5091f5ab7de4726e66e}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={Mel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0d6a956b56fcc2401988f57948c1bb1}
+      \strng{fullhash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{fullhashraw}{8db86e88b83e006844016a9cd17340ae}
+      \strng{bibnamehash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{authorbibnamehash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{authornamehash}{d0d6a956b56fcc2401988f57948c1bb1}
+      \strng{authorfullhash}{8db86e88b83e006844016a9cd17340ae}
+      \strng{authorfullhashraw}{8db86e88b83e006844016a9cd17340ae}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Presence}
+      \field{number}{4}
+      \field{title}{The Sense of Embodiment in Virtual Reality}
+      \field{volume}{21}
+      \field{year}{2012}
+      \field{pages}{373\bibrangedash 387}
+      \range{pages}{15}
+    \endentry
+    \entry{lamb1989kinematicComparison}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36445bba57ceaa94b8da5e424a76345d}{%
+           family={Lamb},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{fullhash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{fullhashraw}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{bibnamehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authorbibnamehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authornamehash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authorfullhash}{36445bba57ceaa94b8da5e424a76345d}
+      \strng{authorfullhashraw}{36445bba57ceaa94b8da5e424a76345d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Journal of Sports Medicine}
+      \field{number}{3}
+      \field{title}{A Kinematic Comparison of Ergometer and On-Water Rowing}
+      \field{volume}{17}
+      \field{year}{1989}
+      \field{pages}{367\bibrangedash 373}
+      \range{pages}{7}
+    \endentry
+    \entry{murrayEtAl2016vrRowingPresence}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=dcbadf384daca4d9769ccfd1da32bb41}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={E.\bibnamedelimi G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aad42059950b0571952f78523684e2ee}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=274bf49164e212529184d1cb125554da}{%
+           family={Moffitt},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5840a90e0db81493bd628834d77ee3b9}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff3a05ab62b3b0c9983a446598b74eb9}
+      \strng{fullhash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{fullhashraw}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{bibnamehash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{authorbibnamehash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{authornamehash}{ff3a05ab62b3b0c9983a446598b74eb9}
+      \strng{authorfullhash}{ab71a16353aa216fcbe06d003a61e433}
+      \strng{authorfullhashraw}{ab71a16353aa216fcbe06d003a61e433}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology of Sport and Exercise}
+      \field{title}{The Effects of the Presence of Others During a Rowing Exercise in a Virtual Reality Environment}
+      \field{volume}{22}
+      \field{year}{2016}
+      \field{pages}{328\bibrangedash 336}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.psychsport.2015.09.007
+      \endverb
+    \endentry
+    \entry{neumannEtAl2018interactiveVrSport}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=aad42059950b0571952f78523684e2ee}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=274bf49164e212529184d1cb125554da}{%
+           family={Moffitt},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5840a90e0db81493bd628834d77ee3b9}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d758a19eb51213749d7bb2a1947455a}{%
+           family={Loveday},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc060b90350b63812df9eed9497fc7f0}{%
+           family={Watling},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5afe9c0231b208f19359a30ad0992a11}{%
+           family={Lombard},
+           familyi={L\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8625f97c52ce12c5d9930c336cf99f9}{%
+           family={Antonova},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51bdc91d5a51a2bb0f2f5edfb5657f26}{%
+           family={Tremeer},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{259a65cd97ad8ce322b39406acfa147b}
+      \strng{fullhash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{fullhashraw}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{bibnamehash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{authorbibnamehash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{authornamehash}{259a65cd97ad8ce322b39406acfa147b}
+      \strng{authorfullhash}{e318d7382bb075e23a08dcbc016dabd3}
+      \strng{authorfullhashraw}{e318d7382bb075e23a08dcbc016dabd3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Virtual Reality}
+      \field{title}{A Systematic Review of the Application of Interactive Virtual Reality to Sport}
+      \field{volume}{22}
+      \field{year}{2018}
+      \field{pages}{183\bibrangedash 198}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s10055-017-0320-5
+      \endverb
+    \endentry
+    \entry{niehorster2021opticFlowHistory}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0cbb41df5eacdcb8a48efd69dfbcd341}{%
+           family={Niehorster},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{fullhash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{fullhashraw}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{bibnamehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authorbibnamehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authornamehash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authorfullhash}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \strng{authorfullhashraw}{0cbb41df5eacdcb8a48efd69dfbcd341}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{i-Perception}
+      \field{number}{6}
+      \field{title}{Optic Flow: A History}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 49}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.1177/20416695211055766
+      \endverb
+    \endentry
+    \entry{palmisanoEtAl2015vectionChallenges}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=51599a66ae18efe90cbae4dc539496c3}{%
+           family={Palmisano},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db29cc509be9a1e97ae6f52bc784354e}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=419b4cd101dd0ca584f817bf52aa6045}{%
+           family={Schira},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e724f028b9b084d5bcce63f780ec1d}{%
+           family={Barry},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13cce27e94fbaddb453693e0f7461051}
+      \strng{fullhash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{fullhashraw}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{bibnamehash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{authorbibnamehash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{authornamehash}{13cce27e94fbaddb453693e0f7461051}
+      \strng{authorfullhash}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \strng{authorfullhashraw}{e72e1bd43b6e5a92ad5dbf503d0785fa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{Future Challenges for Vection Research: Definitions, Functional Significance, Measures, and Neural Bases}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{193}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2015.00193
+      \endverb
+    \endentry
+    \entry{rauterEtAl2013rowingTransfer}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=8c6a235f9b8b04a8f60b025217e01dd4}{%
+           family={Rauter},
+           familyi={R\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9ffad90a44060433bd533e957c6775}{%
+           family={Sigrist},
+           familyi={S\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1df1b7c10e49d18fa1ca5f5e07729d0e}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d328e78ecead93c4320b13a331722e00}{%
+           family={Crivelli},
+           familyi={C\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1aa6afa9713a65ed8dbc7a4f548de6f6}{%
+           family={Raai},
+           familyi={R\bibinitperiod},
+           given={Marinus},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=49162a7f3a8fe4b81a0d28a70c9e81a7}{%
+           family={Riener},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ea08b4eb1e704e09cd0d742e8d07049}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fabef80e3ffb798a458d2c5b327218b}
+      \strng{fullhash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{fullhashraw}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{bibnamehash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{authorbibnamehash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{authornamehash}{6fabef80e3ffb798a458d2c5b327218b}
+      \strng{authorfullhash}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \strng{authorfullhashraw}{80fae1ad00a9aa6e1ca6cb8ebe308f56}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{number}{12}
+      \field{title}{Transfer of Complex Skill Learning from Virtual to Real Rowing}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{e82145}
+      \range{pages}{-1}
+    \endentry
+    \entry{rothLatoschik2020veq}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f45dde7575fbc8c8becb24a5605ca664}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
+           family={Latoschik},
+           familyi={L\bibinitperiod},
+           given={Marc\bibnamedelima Erich},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{fullhash}{9b3013b519cd065db039853da568ae6a}
+      \strng{fullhashraw}{9b3013b519cd065db039853da568ae6a}
+      \strng{bibnamehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authorbibnamehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authornamehash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authorfullhash}{9b3013b519cd065db039853da568ae6a}
+      \strng{authorfullhashraw}{9b3013b519cd065db039853da568ae6a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Visualization and Computer Graphics}
+      \field{number}{12}
+      \field{title}{Construction of the Virtual Embodiment Questionnaire ({VEQ})}
+      \field{volume}{26}
+      \field{year}{2020}
+      \field{pages}{3546\bibrangedash 3556}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TVCG.2020.3023603
+      \endverb
+    \endentry
+    \entry{soperHume2004rowingTechnique}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9cdeddaa20db64aba2db6e4fd895c763}{%
+           family={Soper},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e886ea876b13d453e508e4ebfb75134}{%
+           family={Hume},
+           familyi={H\bibinitperiod},
+           given={Patria\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{fullhash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{fullhashraw}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{bibnamehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authorbibnamehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authornamehash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authorfullhash}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \strng{authorfullhashraw}{5b3e64f7f81e1fdf80cfba1493b17830}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sports Medicine}
+      \field{number}{12}
+      \field{title}{Towards an Ideal Rowing Technique for Performance: The Contributions from Biomechanics}
+      \field{volume}{34}
+      \field{year}{2004}
+      \field{pages}{825\bibrangedash 848}
+      \range{pages}{24}
+    \endentry
+    \entry{waltemateEtAl2016latency}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0255b31331db8758e62f85424a862330}{%
+           family={Waltemate},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ced6aa5d1d7a7099694ff1aa5cf01efa}{%
+           family={Senna},
+           familyi={S\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48cb0f736b2c238af7080ac4cb8ab387}{%
+           family={Hülsmann},
+           familyi={H\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8bbfffc29622163cb72ea0ff09977e7}{%
+           family={Rohde},
+           familyi={R\bibinitperiod},
+           given={Marieke},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c48431e0e6c7e8859b56c2236ab11ef}{%
+           family={Kopp},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2c185d9d2595206307759eca5b4d058}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0765e06ad46483a64643f0c7a324057}{%
+           family={Botsch},
+           familyi={B\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{becb1830680a40bc7351472a47730f70}
+      \strng{fullhash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{fullhashraw}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{bibnamehash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{authorbibnamehash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{authornamehash}{becb1830680a40bc7351472a47730f70}
+      \strng{authorfullhash}{4b7343b07d8a36e8fee33883e615a167}
+      \strng{authorfullhashraw}{4b7343b07d8a36e8fee33883e615a167}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{VRST '16}
+      \field{title}{The Impact of Latency on Perceptual Judgments and Motor Performance in Closed-Loop Interaction in Virtual Reality}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

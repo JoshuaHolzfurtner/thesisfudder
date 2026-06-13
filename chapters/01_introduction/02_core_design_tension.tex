@@ -36,11 +36,109 @@ These sources do not support VR embodiment outcomes or any claim that the ergome
 %   caution: Strong for oar/boat/water interface, not direct evidence for this thesis' embodiment outcomes.
 
 
-A VR rowing system can respond to this difference in at least two plausible ways. In an ergometer-congruent representation, the virtual body, handle, and rowing apparatus are aligned primarily with the user's real machine and movement. The visible hands and handle can remain close to where the user feels them, and the avatar can be animated around the actual handle path and seat motion. This preserves the physical logic of the user's current interaction.
+A VR rowing system can respond to this difference in at least two plausible ways.
+This thesis refers to these strategies as the \emph{erg-centered} and \emph{boat-centered} modes.
+In the erg-centered mode, the virtual body, handle, and rowing apparatus are aligned primarily with the user's real machine and movement.
+The visible hands and handle can remain close to where the user feels them, and the avatar can be organized around the physical ergometer interaction rather than around virtual oar geometry.
+This preserves the physical logic of the user's current interaction and prioritizes visuomotor correspondence between the performed rowing movement and the movement shown in VR \parencite{kilteniEtAl2012senseEmbodiment}%
+\sourcechecknote{This paragraph defines the thesis' erg-centered mode rather than importing a named category from the literature.
+The term is thesis shorthand for a representation strategy that keeps the virtual body, handle, apparatus, and avatar movement organized around the user's real ergometer interaction.
+Kilteni et al. are cited only for the theoretical relevance of visuomotor correspondence: their sense-of-embodiment framework links agency to comparisons between predicted and actual sensory consequences and to synchronous visuomotor correlations under active movement.
+This source does not define the erg-centered mode, does not study rowing, and does not prove that this mode will produce stronger embodiment in the planned study.
+The implementation-specific details of how handle, seat, and body state are tracked or inferred belong in Chapter~\ref{chap:system_prototype}.}
+% SOURCE-CHECK:
+%   key: kilteniEtAl2012senseEmbodiment
+%   md: MD Papers/kilteni_2012_sense_of_embodiment_markdown_bundle/kilteni_2012_sense_of_embodiment_raw_page_marked.md, lines 338-377
+%   pdf: pp. 4-5
+%   evidence: Agency is linked to comparisons between predicted and actual sensory consequences and to synchronous visuomotor correlations; discrepancies between visual feedback and actual movement can negatively affect agency.
+%   confidence: verified
+%   caution: Supports why congruent action-feedback mapping is relevant; does not define the thesis' erg-centered mode or predict its results.
 
-In a boat-centric representation, the system instead prioritizes the visual and sport-specific logic of rowing on water. The user may appear to sit in a boat, move through a river, and row with oars. This can make the virtual scene more recognizable as rowing, but it may require transforming the user's real handle movement into a virtual oar movement that does not fully coincide with the felt motion of the hands and handle.
 
-The comparison is therefore not between a real and an artificial representation of rowing. Both representations are artificial in different ways. The ergometer-congruent condition preserves the physical logic of the user's actual device and movement, but may depict an indoor machine as if it were moving through a virtual rowing environment. The boat-centric condition preserves the visual and cultural logic of the sport, but must transform the user's straight ergometer handle movement into a boat-and-oar action. There is no neutral third option in which the indoor ergometer becomes on-water rowing without remainder.
+
+
+In the boat-centered mode, the system instead prioritizes the visual and sport-specific logic of rowing on water.
+The user may appear to sit in a boat, move through a river, and row with oars.
+This can make the virtual scene more recognizable as rowing, but it also means that the real ergometer handle movement must be interpreted as a virtual boat-and-oar action.
+The resulting virtual oar movement may therefore remain responsive to the user's stroke while no longer coinciding fully with the felt position and movement of the physical handle \parencite{neumannEtAl2018interactiveVrSport,rauterEtAl2013rowingTransfer,lamb1989kinematicComparison,harrisEtAl2019visionForAction}%
+\sourcechecknote{This paragraph defines the thesis' boat-centered mode rather than importing a named category from the literature.
+Neumann et al. support the general VR sport mapping premise: physical effort on an exercise interface can be translated into virtual sport performance, and the review gives rowing examples where ergometer handle pulls can be represented as virtual oar movements and greater exertion can drive faster virtual movement through water and scenery.
+Rauter et al. support the rowing-specific boat-and-oar side of the paragraph: realistic rowing involves rower, boat, oar, blade, oarlock, and water interaction, including oar handling and blade-water mechanics that ordinary ergometers do not reproduce.
+Lamb supports the mechanical mismatch by showing that ergometer and on-water rowing are related but differ in upper-limb and oar-related movement around catch and finish.
+Harris is used as a general VR action caution: visually convincing VR does not automatically preserve the sensory and haptic conditions of real-world action.
+Together, these sources justify the paragraph's thesis inference that a boat-centered representation can be visually recognizable as rowing while still transforming the felt ergometer handle movement into a virtual oar action.
+They do not prove that the boat-centered mode will be preferred or embodied more strongly.}
+% SOURCE-CHECK:
+%   key: neumannEtAl2018interactiveVrSport
+%   md: MD Papers/neumann_2018_interactive_virtual_reality_sport_systematic_review_markdown_bundle/neumann_2018_interactive_virtual_reality_sport_systematic_review_raw_page_marked.md, lines 105-123; lines 404-419
+%   pdf: p. 4; p. 12
+%   evidence: Interactive VR sport can translate physical effort on an exercise interface into virtual sport performance; rowing handle pulls can be depicted as virtual oar movements and exertion can drive virtual movement through water/scenery.
+%   confidence: verified
+%   caution: Supports VR sport mapping logic, not the thesis' exact two-mode comparison as prior work.
+%
+% SOURCE-CHECK:
+%   key: rauterEtAl2013rowingTransfer
+%   md: MD Papers/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_markdown_bundle/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_raw_page_marked.md, lines 149-199; lines 283-320; lines 397-407
+%   pdf: p. 2; p. 3; p. 4
+%   evidence: Rowing involves rower-boat-oar-water interaction; ordinary ergometers omit oar handling/oar height; rowing with oars involves blades entering, pulling through, and leaving water and oar angles around oarlocks.
+%   confidence: verified
+%   caution: Supports the boat/oar/water action structure, not this thesis' outcome measures.
+%
+% SOURCE-CHECK:
+%   key: lamb1989kinematicComparison
+%   md: MD Papers/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_markdown_bundle/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_raw_page_marked.md, lines 20-63; lines 419-500
+%   pdf: p. 1; pp. 6-7
+%   evidence: Ergometer and on-water rowing are related but differ in upper-limb and oar-related movement around catch and finish, partly because on-water rowing includes oar handling not exhibited on the ergometer.
+%   confidence: verified
+%   caution: Supports why virtual oar action may not fully coincide with felt ergometer handle movement.
+%
+% SOURCE-CHECK:
+%   key: harrisEtAl2019visionForAction
+%   md: MD Papers/harris_2019_virtually_the_same_vr_vision_for_action_markdown_bundle/harris_2019_virtually_the_same_vr_vision_for_action_raw_page_marked.md, lines 34-45; lines 251-286
+%   pdf: p. 1; p. 3
+%   evidence: VR may alter or limit action-relevant sensory information such as depth and haptics, so visually convincing VR action may differ from real-world action control.
+%   confidence: verified
+%   caution: General VR action caution; not rowing-specific and not evidence for preference or embodiment outcomes.
+
+
+The comparison is therefore not between a real and an artificial representation of rowing.
+Both modes are representations of an indoor rowing action under different constraints.
+The erg-centered mode preserves the physical logic of the user's actual device and movement, but can still place that indoor action inside a mediated rowing environment.
+The boat-centered mode preserves the recognizable boat-and-oar logic of the sport, but must transform the real ergometer interaction into a virtual oar action.
+There is no neutral third option in which the indoor ergometer simply becomes on-water rowing without remainder \parencite{lamb1989kinematicComparison,rauterEtAl2013rowingTransfer,neumannEtAl2018interactiveVrSport,harrisEtAl2019visionForAction}%
+\sourcechecknote{This paragraph is a conceptual guardrail.
+It prevents the comparison from being read as real rowing versus fake rowing or correct rowing versus wrong rowing.
+Lamb and Rauter support the mechanical premise that ergometer rowing and on-water rowing are related but not interchangeable: Lamb documents upper-limb and oar-related differences between ergometer and on-water rowing, while Rauter emphasizes the rower-boat-oar-water interaction that ordinary ergometers simplify.
+Neumann supports the VR sport premise that physical effort on an interface can be translated into virtual sport action, including rowing examples where handle pulls become virtual oar movements.
+Harris supports the caution that visually convincing VR action does not automatically reproduce the sensory and haptic conditions of real-world action.
+The thesis inference is that both modes are compromises: the erg-centered mode preserves the user's actual physical interaction but still mediates it in VR, while the boat-centered mode preserves the recognizable boat-and-oar form of the sport but must transform the physical ergometer interaction.
+The sources support the premises for this framing, but the statement that there is no neutral third option is thesis synthesis.}
+% SOURCE-CHECK:
+%   key: lamb1989kinematicComparison; rauterEtAl2013rowingTransfer
+%   md: MD Papers/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_markdown_bundle/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_raw_page_marked.md, lines 419-500; MD Papers/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_markdown_bundle/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_raw_page_marked.md, lines 149-199; lines 283-320
+%   pdf: Lamb pp. 6-7; Rauter p. 2; p. 3
+%   evidence: Ergometer and on-water rowing are related but differ in oar/upper-limb mechanics; ordinary ergometers omit oar handling/oar height, while on-water rowing involves rower-boat-oar-water interaction.
+%   confidence: verified
+%   caution: Supports the no-neutral-option premise, not a result about embodiment.
+%
+% SOURCE-CHECK:
+%   key: neumannEtAl2018interactiveVrSport
+%   md: MD Papers/neumann_2018_interactive_virtual_reality_sport_systematic_review_markdown_bundle/neumann_2018_interactive_virtual_reality_sport_systematic_review_raw_page_marked.md, lines 105-123; lines 404-419
+%   pdf: p. 4; p. 12
+%   evidence: Physical effort on an exertion interface can translate into virtual sport performance; rowing handle pulls can be depicted as virtual oar movements through water.
+%   confidence: verified
+%   caution: Supports virtual mapping logic, not the exact thesis mode comparison as prior work.
+%
+% SOURCE-CHECK:
+%   key: harrisEtAl2019visionForAction
+%   md: MD Papers/harris_2019_virtually_the_same_vr_vision_for_action_markdown_bundle/harris_2019_virtually_the_same_vr_vision_for_action_raw_page_marked.md, lines 34-45; lines 251-286; lines 378-393
+%   pdf: p. 1; p. 3; p. 4
+%   evidence: VR can alter or conflict with depth cues and lacks realistic haptic information, so visually guided actions in VR may diverge from real-world action.
+%   confidence: verified
+%   caution: General VR action caution, not rowing-specific evidence.
+
+
+
 
 This makes VR indoor rowing a useful case for studying a broader XR design problem. Many XR sport and exercise systems use stationary or simplified physical equipment to represent more complex activities. The system can either make the virtual action correspond closely to the user's real movement, or it can transform the movement to better match the represented activity. Both choices solve one part of the problem while introducing another.
 
