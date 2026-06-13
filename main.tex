@@ -41,6 +41,26 @@
   \par\noindent{\color{blue!70!black}\textbf{Draft note:} #1}\par%
 }
 
+% Hyperlinks and cross-references.
+\usepackage{hyperref}
+\usepackage{pdfcomment}
+\usepackage{cleveref}
+\newif\ifshowsourcenotes
+\showsourcenotestrue
+
+\newif\ifsourcehover
+%\sourcehovertrue
+\sourcehoverfalse
+
+\newcommand{\sourcechecknote}[1]{%
+  \ifshowsourcenotes%
+    \ifsourcehover%
+      \pdftooltip{\textsuperscript{\textcolor{blue!70!black}{[src]}}}{Source check: #1}%
+    \else%
+      \footnote{\textit{Source check:} #1}%
+    \fi%
+  \fi%
+}
 % ------------------------------------------------------------
 % Bibliography setup
 % ------------------------------------------------------------
