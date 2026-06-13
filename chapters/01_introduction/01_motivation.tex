@@ -1,16 +1,182 @@
 \section{Motivation}
 \label{sec:introduction_motivation}
 
-Indoor rowing is a physically demanding and technically structured form of exercise. Unlike many stationary fitness activities, rowing involves a coordinated whole-body movement in which legs, trunk, arms, seat, handle, and rhythm are tightly coupled. On a rowing ergometer, this movement is reduced to a land-based training device: the user moves back and forth on a sliding seat and pulls a handle along a mostly linear path. The physical effort can approximate important aspects of rowing training, but the perceptual situation differs strongly from rowing on water. The user remains stationary in a room, the boat is absent, and the characteristic visual and spatial experience of moving through a rowing environment is largely missing.
-% TODO cite: rowing biomechanics / ergometer rowing source.
-% TODO cite: source comparing ergometer and on-water rowing kinematics if available.
+Indoor rowing is a physically demanding and technically structured form of exercise.
+Unlike many stationary fitness activities, rowing involves a coordinated movement of legs, trunk, and arms, expressed on the ergometer through seat, handle, and stroke rhythm.
+On a rowing ergometer, this movement is translated into sliding-seat and handle motion on a stationary training device.
+Ergometer rowing can reproduce important aspects of rowing training, but it is not identical to rowing on water, especially where boat motion, oar handling, and the interaction between oar and water shape the stroke \parencite{soperHume2004rowingTechnique,lamb1989kinematicComparison,rauterEtAl2013rowingTransfer}%
+\sourcechecknote{The Motivation opens from rowing and ergometer mechanics, not from VR theory.
+Soper and Hume support treating ergometer rowing as a normal rowing training and testing context while also warning that common ergometers reproduce only parts of on-water body action, especially less well for trunk and upper-limb patterns.
+Lamb gives the direct ergometer-versus-on-water kinematic comparison: leg and trunk movement are broadly similar in many drive-phase variables, but upper arm and forearm movement differ, especially around catch and finish, partly because on-water rowing includes oar handling such as lifting and feathering that is absent on the ergometer.
+Rauter et al. support the broader sport-action premise that rowing involves coordinated body movement and continuous haptic interaction among rower, boat, oar, and water, while ordinary indoor ergometers simplify this interaction through cable-driven resistance and do not train oar handling or oar height in water.
+Together, these sources justify the thesis wording that ergometer rowing is related to, but not identical with, on-water rowing.
+They do not support claims about VR embodiment outcomes or user preference.}
+% SOURCE-CHECK:
+%   key: soperHume2004rowingTechnique
+%   md: MD Papers/soper_hume_2004_ideal_rowing_technique_biomechanics_markdown_bundle/soper_hume_2004_ideal_rowing_technique_biomechanics_raw_page_marked.md, lines 79-85; lines 109-123
+%   pdf: p. 1; p. 2
+%   evidence: Rowing ergometers are commonly used for performance testing, technique coaching, crew selection, and poor-weather training; common ergometers reproduce parts of body action but do not reproduce trunk and upper-limb patterns particularly well compared with on-water rowing.
+%   confidence: verified
+%   caution: Supports ergometer use and biomechanical caveat, not VR embodiment or preference.
+%
+% SOURCE-CHECK:
+%   key: lamb1989kinematicComparison
+%   md: MD Papers/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_markdown_bundle/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_raw_page_marked.md, lines 20-63; lines 419-500
+%   pdf: p. 1; pp. 6-7
+%   evidence: Ergometer and on-water rowing share many drive-phase variables, especially for legs and trunk, but differ in upper-arm and forearm/oar-related motion around catch and finish.
+%   confidence: verified
+%   caution: Supports related-but-not-identical rowing mechanics; does not support VR or embodiment claims.
+%
+% SOURCE-CHECK:
+%   key: rauterEtAl2013rowingTransfer
+%   md: MD Papers/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_markdown_bundle/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_raw_page_marked.md, lines 149-199; lines 283-302; lines 305-320
+%   pdf: p. 2; p. 3
+%   evidence: Rowing involves coordinated rower-boat-oar-water interaction; ordinary indoor ergometers render resistance through a cable-driven windmill and do not train oar handling or oar height in water.
+%   confidence: verified
+%   caution: Supports whole-body/tool-mediated rowing and ergometer limitations; does not support this thesis' embodiment outcomes.
 
-Virtual reality offers an opportunity to reintroduce some of this missing experiential context. A virtual rowing system can place the user in a boat, on a river, or in a training environment that visually resembles the sport more closely than an ergometer display can. Such a system can add optic flow, spatial sound, avatar representation, opponents, teammates, and environmental feedback. In stationary exercise contexts, this visual motion through a virtual environment can also contribute to an impression of self-motion, even when the user's physical body remains in place.
-% TODO cite: vection / optic flow / visually induced self-motion source.
-% TODO cite: VR exercise or virtual environment training source.
+Virtual reality offers an opportunity to reintroduce some of the experiential context that the ergometer removes.
+A virtual rowing system can place the user in a boat, on a river, or in a training environment that visually resembles the sport more closely than a conventional ergometer display.
+Prior rowing and VR sport systems have shown how stationary exercise can be connected to virtual environments, avatars, social or competitive context, and visually represented movement through space \parencite{murrayEtAl2016vrRowingPresence,arndtEtAl2018vrRowingWorkouts,neumannEtAl2018interactiveVrSport}.
+In such systems, visual motion cues such as optic flow may also contribute to an impression of self-motion, even when the user's physical body remains in one place \parencite{niehorster2021opticFlowHistory,palmisanoEtAl2015vectionChallenges}%
+\sourcechecknote{This citation cluster establishes VR as a way to restore missing rowing context, while avoiding the stronger claim that prior work studies this thesis' exact mapping comparison.
+Murray et al. provide a concrete prior VR rowing example in which participants row on an ergometer while seeing a virtual river, avatar timing, and companion/social conditions.
+Arndt et al. provide an HMD rowing prototype in which sensor-derived ergometer movement drives a virtual rowing scene with lake/scull feedback, while the real haptic feedback still comes from the physical rowing machine.
+Neumann et al. provide the broader interactive VR sport frame and include rowing examples where exertion on an ergometer can be represented as virtual oar movement and movement through water or scenery.
+Niehorster supports the narrow optic-flow wording by defining optic flow as global visual motion that carries self-motion information.
+Palmisano et al. support the cautious self-motion/vection background by discussing subjective self-motion in stationary observers.
+The self-motion sentence remains phrased as ``may contribute'' because this thesis does not measure vection and should not claim that optic flow automatically produces embodiment, agency, ownership, or preference.}
+% SOURCE-CHECK:
+%   key: murrayEtAl2016vrRowingPresence
+%   md: MD Papers/murray_2016_presence_of_others_vr_rowing_exercise_markdown_bundle/murray_2016_presence_of_others_vr_rowing_exercise_raw_page_marked.md, lines 42-55; lines 76-99; lines 266-286
+%   pdf: p. 1; p. 3
+%   evidence: VR exercise can let physical exertion on equipment move a user through a virtual environment; Murray describes ergometer rowing in individual/companion VR with a virtual river and avatar timing.
+%   confidence: verified
+%   caution: Concrete VR rowing example; not evidence that the thesis' two representation modes have already been compared.
+%
+% SOURCE-CHECK:
+%   key: arndtEtAl2018vrRowingWorkouts
+%   md: MD Papers/arndt_2018_vr_hmd_rowing_workouts_markdown_bundle/arndt_2018_vr_hmd_rowing_workouts_raw_page_marked.md, lines 47-57; lines 219-253
+%   pdf: p. 1; p. 2
+%   evidence: HMD rowing prototype with a stationary rowing machine, virtual lake/scull, sensor-derived rowing feedback, and real haptic feedback from the ergometer handle.
+%   confidence: verified
+%   caution: Supports prior HMD rowing system and mediated virtual rowing environment; not the exact two-mode mapping comparison.
+%
+% SOURCE-CHECK:
+%   key: neumannEtAl2018interactiveVrSport
+%   md: MD Papers/neumann_2018_interactive_virtual_reality_sport_systematic_review_bundle/neumann_2018_interactive_virtual_reality_sport_systematic_review_raw_page_marked.md, lines 105-123; lines 228-241; lines 404-419
+%   pdf: p. 4; p. 7; p. 12
+%   evidence: Interactive VR sport involves simulated sport environments and athlete interactivity; rowing handle pulls can be represented as virtual oar movement and exertion can drive movement through water and scenery.
+%   confidence: verified
+%   caution: Supports action-coupled VR sport and rowing examples; not the thesis' exact mapping comparison.
+%
+% SOURCE-CHECK:
+%   key: niehorster2021opticFlowHistory
+%   md: MD Papers/niehorster_2021_optic_flow_history_markdown_bundle/niehorster_2021_optic_flow_history_raw_page_marked.md, lines 28-34; lines 75-79
+%   pdf: p. 1; p. 2
+%   evidence: Defines optic flow as global visual motion associated with self-motion information.
+%   confidence: verified
+%   caution: Supports optic-flow wording only; not agency, ownership, presence, or measured vection.
+%
+% SOURCE-CHECK:
+%   key: palmisanoEtAl2015vectionChallenges
+%   md: MD Papers/palmisano_2015_vection_research_challenges_markdown_bundle/palmisano_2015_vection_research_challenges_raw_page_marked.md, lines 46-54; lines 899-904
+%   pdf: p. 1; p. 9
+%   evidence: Discusses vection as subjective self-motion in stationary observers and emphasizes the subjective nature of the phenomenon.
+%   confidence: verified
+%   caution: Use only for cautious self-motion/vection background; this thesis does not measure vection.
 
-However, this opportunity also introduces a design problem. The ergometer makes rowing available indoors by replacing the boat and oars with a machine. Virtual reality can visually restore the boat, oars, water, and motion through space, but it cannot remove the fact that the user is still physically rowing on an ergometer. The system must therefore decide how the real movement should become a virtual rowing action.
+However, this opportunity also introduces a design problem.
+The ergometer makes rowing available indoors by replacing the boat and oars with a stationary machine.
+Virtual reality can visually restore the boat, oars, water, and movement through an environment, but it cannot remove the fact that the user is still physically rowing on an ergometer.
+The system must therefore decide how the real movement should become a virtual rowing action.%
+\sourcechecknote{This paragraph is the first explicit thesis-synthesis point.
+The rowing sources establish the first premise: ordinary ergometer rowing is a legitimate indoor rowing form, but it replaces or alters the boat-oar-water interaction.
+Soper and Hume support common ergometer use and biomechanical caveats; Lamb directly compares ergometer and on-water rowing and identifies upper-limb/oar-related differences; Rauter et al. emphasize that rowing involves continuous rower-boat-oar-water interaction while ordinary ergometers use cable-driven resistance and do not train oar handling or oar height.
+The VR sources establish the second premise: virtual rowing systems can visually present rowing environments and couple ergometer effort to virtual action.
+Murray et al. use an ergometer with a virtual river/avatar setup, Arndt et al. use an HMD rowing prototype with a virtual lake/scull driven by ergometer sensor data, and Neumann et al. describe interactive VR sport in which rowing handle pulls can become virtual oar movements and exertion can drive faster movement through water and scenery.
+The thesis inference is that VR rowing must choose how the real ergometer movement becomes a virtual rowing action.
+This should not be overread as a claim that VR restores full on-water haptics or that prior work has already studied the exact two-mode comparison.}
+% SOURCE-CHECK:
+%   key: soperHume2004rowingTechnique; lamb1989kinematicComparison; rauterEtAl2013rowingTransfer
+%   md: MD Papers/soper_hume_2004_ideal_rowing_technique_biomechanics_markdown_bundle/soper_hume_2004_ideal_rowing_technique_biomechanics_raw_page_marked.md, lines 109-123; MD Papers/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_markdown_bundle/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_raw_page_marked.md, lines 419-500; MD Papers/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_markdown_bundle/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_raw_page_marked.md, lines 149-199
+%   pdf: Soper/Hume p. 2; Lamb pp. 6-7; Rauter p. 2
+%   evidence: Ergometer rowing differs from on-water rowing in upper-limb/oar-related motion and lacks ordinary oar-water interaction; ordinary ergometers replace richer rowing interaction with machine resistance.
+%   confidence: verified
+%   caution: Source-backed premise for thesis synthesis, not a direct source statement of the thesis design problem.
+%
+% SOURCE-CHECK:
+%   key: murrayEtAl2016vrRowingPresence; arndtEtAl2018vrRowingWorkouts; neumannEtAl2018interactiveVrSport
+%   md: MD Papers/murray_2016_presence_of_others_vr_rowing_exercise_markdown_bundle/murray_2016_presence_of_others_vr_rowing_exercise_raw_page_marked.md, lines 266-286; MD Papers/arndt_2018_vr_hmd_rowing_workouts_markdown_bundle/arndt_2018_vr_hmd_rowing_workouts_raw_page_marked.md, lines 219-253; MD Papers/neumann_2018_interactive_virtual_reality_sport_systematic_review_bundle/neumann_2018_interactive_virtual_reality_sport_systematic_review_raw_page_marked.md, lines 404-419
+%   pdf: Murray p. 3; Arndt p. 2; Neumann p. 12
+%   evidence: Concrete VR rowing / VR sport examples mediate ergometer exertion as virtual rowing movement, avatar/scull/environment movement, or virtual oar action.
+%   confidence: verified
+%   caution: Supports mediated virtual rowing examples; does not prove the exact two-mode comparison exists in prior work.
 
-This decision matters because indoor rowing in VR is not simply a question of adding a more attractive background to exercise. The user performs a real, repetitive, forceful movement while seeing a mediated version of that movement in a virtual environment. The virtual scene can make the activity feel more like rowing on water, but the physical interface remains the ergometer. As a result, the system must balance two different forms of fidelity: fidelity to the user's actual sensorimotor interaction with the machine, and fidelity to the visual and cultural form of the sport.
+This decision matters because indoor rowing in VR is not simply a question of adding a more attractive background to exercise.
+The user performs a real, repetitive, forceful movement while seeing a mediated version of that movement in a virtual environment.
+The virtual scene can make the activity visually resemble rowing on water, but the physical interface remains the ergometer.
+As a result, the system must balance two different forms of fidelity: fidelity to the user's actual sensorimotor interaction with the machine, and fidelity to the recognizable visual and sport-specific form of rowing.%
+\sourcechecknote{This paragraph reframes VR rowing as an action-mapping problem rather than background decoration.
+Neumann et al. support this by defining interactive VR sport through a simulated sport environment and athlete interactivity, and by giving the rowing example where ergometer handle pulls become virtual oar movements and exertion changes virtual speed through water and scenery.
+Murray et al. and Arndt et al. provide concrete VR rowing systems in which real ergometer movement is mediated as avatar, boat, scull, river, lake, or scenery movement.
+Rauter et al. and Lamb explain why this is not a trivial one-to-one mapping: rowing is a rower-boat-oar-water interaction, ordinary ergometers replace important oar-water mechanics, and ergometer/on-water kinematics differ especially around upper-limb and oar-related parts of the stroke.
+The thesis inference is the two-fidelity tension: fidelity to the user's actual sensorimotor interaction with the machine versus fidelity to the recognizable visual and sport-specific form of on-water rowing.
+The sources support the premises for this tension, but not any conclusion that one form of fidelity is superior.}
+% SOURCE-CHECK:
+%   key: neumannEtAl2018interactiveVrSport
+%   md: MD Papers/neumann_2018_interactive_virtual_reality_sport_systematic_review_bundle/neumann_2018_interactive_virtual_reality_sport_systematic_review_raw_page_marked.md, lines 105-123; lines 404-419
+%   pdf: p. 4; p. 12
+%   evidence: Interactive VR sport translates physical effort on an exertion interface into virtual sport performance; rowing handle pulls can be depicted as virtual oar movement and greater exertion can drive faster virtual movement through water and scenery.
+%   confidence: verified
+%   caution: Supports exertion-to-virtual-action logic, not the thesis' exact two-fidelity terminology.
+%
+% SOURCE-CHECK:
+%   key: rauterEtAl2013rowingTransfer; lamb1989kinematicComparison
+%   md: MD Papers/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_markdown_bundle/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_raw_page_marked.md, lines 149-199; MD Papers/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_markdown_bundle/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_raw_page_marked.md, lines 419-500
+%   pdf: Rauter p. 2; Lamb pp. 6-7
+%   evidence: Rowing is a rower-boat-oar-water interaction; ordinary ergometers omit oar handling/oar height; ergometer and on-water rowing differ in upper-limb/oar-related motion around catch and finish.
+%   confidence: verified
+%   caution: Supports why real ergometer interaction and boat/oar depiction can diverge; does not prove embodiment outcomes.
+%
+% SOURCE-CHECK:
+%   key: murrayEtAl2016vrRowingPresence; arndtEtAl2018vrRowingWorkouts
+%   md: MD Papers/murray_2016_presence_of_others_vr_rowing_exercise_markdown_bundle/murray_2016_presence_of_others_vr_rowing_exercise_raw_page_marked.md, lines 266-286; MD Papers/arndt_2018_vr_hmd_rowing_workouts_markdown_bundle/arndt_2018_vr_hmd_rowing_workouts_raw_page_marked.md, lines 219-253
+%   pdf: Murray p. 3; Arndt p. 2
+%   evidence: Prior VR rowing examples keep the user on an ergometer while displaying virtual rowing environments, avatars/sculls, scenery, and force- or stroke-coupled virtual movement.
+%   confidence: verified
+%   caution: Supports mediated movement examples, not the exact two-mode comparison.
 
-This thesis investigates that balance. It examines VR indoor rowing as a case where a physical exercise device stands in for a more complex sport action. The central question is whether the virtual representation should preserve the user's actual interaction with the ergometer as directly as possible, or transform that interaction into the boat- and oar-based action associated with rowing on water.
+This thesis investigates that balance.
+It examines VR indoor rowing as a case where a physical exercise device stands in for a more complex sport action.
+The central question is whether the virtual representation should preserve the user's actual interaction with the ergometer as directly as possible, or transform that interaction into the boat- and oar-based action associated with rowing on water.%
+\sourcechecknote{This closing Motivation paragraph states the thesis' own research focus.
+External sources should only support the premises, not be presented as if they posed the exact central question.
+Rauter et al. support the idea that rowing is a complex sport action involving coordinated body movement and rower-boat-oar-water interaction, while ordinary ergometers omit oar handling and oar height in water.
+Lamb supports the kinematic mismatch that makes preserving actual ergometer movement and transforming it into boat/oar action meaningfully different choices.
+Neumann et al. support the interactive VR sport premise that physical exertion on an interface can become virtual sport action, including the example of rowing handle pulls represented as virtual oar movements.
+The thesis-authored question is whether the virtual representation should stay close to the user's real ergometer interaction or transform that interaction into the recognizable boat-and-oar action of on-water rowing.
+This paragraph should stay comparative and open-ended, without implying that one mapping is already known to be superior.}
+% SOURCE-CHECK:
+%   key: rauterEtAl2013rowingTransfer
+%   md: MD Papers/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_markdown_bundle/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_raw_page_marked.md, lines 149-199; lines 283-302
+%   pdf: p. 2; p. 3
+%   evidence: Rowing is a coordinated rower-boat-oar-water action; ordinary ergometers omit oar handling and oar height in water.
+%   confidence: verified
+%   caution: Supports complex sport-action premise, not the exact thesis research question.
+%
+% SOURCE-CHECK:
+%   key: lamb1989kinematicComparison
+%   md: MD Papers/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_bundle/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_raw_page_marked.md, lines 20-63; lines 419-500
+%   pdf: p. 1; pp. 6-7
+%   evidence: Ergometer and on-water rowing share many drive-phase variables but differ in arm/oar-related movement, especially around catch and finish.
+%   confidence: verified
+%   caution: Supports why preserving actual ergometer interaction and depicting boat/oar action are not identical.
+%
+% SOURCE-CHECK:
+%   key: neumannEtAl2018interactiveVrSport
+%   md: MD Papers/neumann_2018_interactive_virtual_reality_sport_systematic_review_bundle/neumann_2018_interactive_virtual_reality_sport_systematic_review_raw_page_marked.md, lines 105-123; lines 404-419
+%   pdf: p. 4; p. 12
+%   evidence: Interactive VR sport translates physical effort on an interface into virtual sport performance; rowing handle pulls can be depicted as virtual oar movements.
+%   confidence: verified
+%   caution: Supports virtual-action translation premise, not the thesis' exact two-mode comparison as a prior finding.
