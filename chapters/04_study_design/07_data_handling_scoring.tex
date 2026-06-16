@@ -1,12 +1,60 @@
 \section{Data Handling and Scoring}
 \label{sec:study_design_data_handling}
 
-Questionnaire responses will be recorded per participant and per condition. The analysis table will include a participant code, condition order, background variables, per-condition ratings, comparative preference answers, and optional open comments. Condition order must be retained because the within-subject design makes order, learning, and fatigue possible interpretive factors.
+Questionnaire responses are recorded per participant and per condition.
+The analysis table should include a participant code, condition order, relevant background variables, per-condition ratings, post-comparison answers, and optional open comments.
+Condition order must be retained because the within-subject design makes order, learning, novelty, fatigue, and adaptation possible interpretive factors.
+Participant names or direct identifiers should not be stored in the analysis table.
+If consent forms or contact information must be stored, they should be kept separately from questionnaire responses.
 
-Participant names or direct identifiers should not be stored in the analysis table. If contact or consent information must be stored, it should be kept separately from questionnaire responses.
+The VEQ Ownership/Acceptance score is calculated as the mean of the selected Ownership/Acceptance items.
+The VEQ Control/Agency score is calculated as the mean of the selected Control/Agency items.
+These two scores are treated as the primary self-report embodiment outcomes.
+If any VEQ item wording is adapted to fit the rowing context, the adaptation must be documented in Appendix~\ref{app:questionnaires} before data collection \parencite{rothLatoschik2020veq}.
+\sourcechecknote{Roth and Latoschik is used here for the VEQ scoring logic.
+The VEQ supports factor-level scoring for Ownership/Acceptance and Control/Agency, with items assigned to those factors and scored as scale means.
+The thesis uses those factors as primary self-report outcomes because they match the study's core embodiment questions.
+If item wording is adapted for rowing, that adaptation must be transparent because otherwise the questionnaire is no longer simply the unmodified VEQ sheet.
+This source does not justify averaging custom rowing-specific items into VEQ scores.}
+% SOURCE-CHECK:
+%   key: rothLatoschik2020veq
+%   md: MD Papers/roth_latoschik_2020_virtual_embodiment_questionnaire_veq_markdown_bundle/roth_latoschik_2020_virtual_embodiment_questionnaire_veq_thesis_notes.md, lines 21-34, 46-67, 170-179, 207-229
+%   pdf: see VEQ clean-reading item/scoring anchors
+%   evidence: VEQ provides factors, item groups, 7-point response format, and mean scoring logic for selected embodiment factors.
+%   confidence: verified
+%   caution: Applies to VEQ-derived items only, not custom rowing-specific items.
 
-The VEQ Ownership/Acceptance score will be calculated as the mean of the selected ownership items. The VEQ Control/Agency score will be calculated as the mean of the selected agency items. If any VEQ item is adapted for wording, the adaptation must be documented in Appendix~\ref{app:questionnaires}. Exploratory body-location items will be reported separately because they are not part of the final VEQ factor structure used as the primary measure.
+Exploratory body-location items are reported separately from the VEQ scores.
+They are included because self-location is conceptually relevant to embodiment, but the study does not treat these items as a final VEQ factor score.
+The same separation applies to rowing-specific custom items.
+Items on handle fit, hand/oar mapping, controllable extension, sport-action plausibility, and mismatch are analyzed as exploratory thesis-specific measures rather than as validated subscales.
+If a negative mismatch item is reverse-coded or combined with other items, the scoring rule must be defined before analysis.
+Otherwise, mismatch should be reported directly as its own measure.
 
-Custom rowing-specific items will be scored and reported separately from the VEQ. Preference items will be analyzed after both conditions because they depend on direct comparison. Open comments will be used to contextualize questionnaire patterns, especially where participants describe concrete sources of congruence, mismatch, comfort, or confusion.
+Preference questions are analyzed only after both conditions have been completed.
+They are interpreted as design-facing comparisons, not as embodiment scores.
+Open comments are used to contextualize questionnaire patterns, especially when participants describe concrete sources of congruence, mismatch, comfort, or confusion.
+If comments are quoted in the thesis, they should be anonymized and checked for identifying information.
+If comments are translated or paraphrased, that decision should be documented.
 
-\drafttodo{TODO:CONFIRM file format, anonymization process, missing-data handling, and whether open comments are translated, paraphrased, or quoted.}
+Descriptive statistics should be reported for each condition and measure.
+For the primary VEQ outcomes, the analysis should report condition-level Ownership/Acceptance and Control/Agency scores and within-participant differences.
+For exploratory measures, the analysis should report direction and pattern rather than overstate scale-level precision.
+If the final sample size and response distributions support inferential tests, paired within-subject tests may be used.
+If the sample is small, descriptive statistics, within-subject profiles, and open comments should carry the interpretation more strongly than claims of generalizable effects.
+% SOURCE-CHECK:
+%   key: thesis analysis plan
+%   md: notes/chapters/04_questionnaire_pitch_dossier_for_chat_pro_5_5.md, Recommended Section Pitch, Data Handling/Scoring logic, Guardrails
+%   pdf: not applicable
+%   evidence: Dossier recommends separate reporting of VEQ outcomes, exploratory rowing-specific items, preference, comfort, and comments; it warns against collapsing them into one embodiment score.
+%   confidence: verified
+%   caution: Final statistical tests, alpha level, missing-data handling, and comment translation remain author decisions.
+
+Missing data handling must be defined before final analysis.
+If an item is skipped, the analysis should state whether the participant's subscale score is omitted, calculated from available items, or marked missing.
+The same rule should be applied consistently across conditions.
+TODO:CONFIRM final missing-data handling before data collection or analysis.
+
+The data handling approach is intentionally conservative.
+It allows the study to identify whether the two representation modes produce different response profiles without implying that one mode is universally superior.
+A useful result may be a divergence: for example, one mode may produce stronger reported control, another may be judged more plausible as rowing on water, and preference may follow neither ownership nor agency perfectly.

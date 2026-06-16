@@ -1,14 +1,145 @@
 \section{Study Design}
 \label{sec:study_design_overview}
 
-The study evaluates the XR rowing prototype by comparing two representation modes for the same physical rowing action. In both conditions, participants row on the same ergometer setup. What changes is not the exercise task itself, but the representational relation between the felt ergometer movement and the visible rowing body, handle, oars, and environment.
+The study evaluates the XR rowing prototype by comparing two representation modes for the same physical rowing action.
+In both conditions, participants row on the same physical ergometer setup.
+What changes is not the exercise task itself, but the representational relation between the felt ergometer movement and the visible rowing body, handle, oars, and environment.
+The study is therefore designed as a comparison of representation strategies rather than as a comparison of different exercise tasks.
+\sourcechecknote{This opening paragraph states the thesis' own study design.
+It should not be read as a literature claim.
+The paper corpus supports the surrounding rationale: VR sport systems can map physical effort on exercise interfaces into simulated sport action, and rowing biomechanics shows why ergometer rowing and on-water rowing are related but not identical.
+However, the claim that this study uses the same physical ergometer setup in both conditions is an internal protocol fact that must match the final implementation and procedure.
+The verification pack explicitly warns that concrete implementation and protocol details should be treated as project facts requiring author confirmation, not as literature-backed facts.}
+% SOURCE-CHECK:
+%   key: thesis protocol
+%   md: notes/04_study_design/04_study_design_non_questionnaire_evidence_pack.md, Section 4.1 Study Design
+%   pdf: not applicable
+%   evidence: The study compares two representation modes for the same physical rowing action and should keep the physical task stable across conditions.
+%   confidence: needs manual check
+%   caution: Confirm final physical setup, condition implementation, and procedure before reporting in past tense.
 
-The first condition is an ergometer-congruent representation. It is designed to preserve close spatial and temporal correspondence between the participant's real interaction with the ergometer and the virtual rowing body. The visible hands, handle relation, seat movement, and body movement are therefore intended to remain as close as possible to the physical setup. This condition prioritizes embodied action congruence: the participant should see a rowing body whose movement appears directly tied to the movement they perform on the machine.
+The first condition is the \emph{erg-centered} mode.
+This mode prioritizes close correspondence between the participant's real ergometer interaction and the virtual rowing body.
+The virtual body, handle relation, and rowing apparatus are intended to remain organized around the participant's actual physical movement and the aligned ergometer setup.
+The design goal is that the visible stroke appears directly tied to the movement the participant performs on the machine.
 
-The second condition is a boat-realistic representation. It is designed to make the action legible as rowing on water by showing a rowing body in a boat-like context with virtual oars. This representation is motivated by the fact that ergometer rowing can approximate important parts of rowing movement, but does not reproduce all on-water rowing mechanics, especially oar- and blade-related actions \parencite{lamb1989kinematicComparison,soperHume2004rowingTechnique}. The boat-realistic condition therefore prioritizes sport-action depiction even where the virtual oar path cannot be a literal copy of the real ergometer handle path.
+The second condition is the \emph{boat-centered} mode.
+This mode prioritizes the recognizable boat-and-oar structure of rowing on water.
+The participant still rows on the physical ergometer, but the virtual representation presents the action as rowing with oars in a boat-like environment.
+Because ergometer rowing and on-water rowing are related but not identical, this mode may need to transform the real handle movement into a virtual oar movement that does not fully coincide with the felt physical handle movement \parencite{lamb1989kinematicComparison,soperHume2004rowingTechnique,rauterEtAl2013rowingTransfer,neumannEtAl2018interactiveVrSport}.
+\sourcechecknote{This citation cluster supports the rationale for comparing an erg-centered and a boat-centered representation.
+Lamb directly compares ergometer and on-water rowing kinematics and supports the claim that the movements are related but not identical, especially around upper-limb and oar-related movement near catch and finish.
+Soper and Hume support the role of ergometers in rowing training while also noting that common ergometers do not fully reproduce on-water trunk and upper-limb movement patterns.
+Rauter et al. support the boat-and-oar side of the distinction by describing rowing as a rower--boat--oar--water interaction and by noting that ordinary ergometers do not train oar handling or oar height in water.
+Neumann et al. provides the broader VR sport context: physical effort on an exercise interface can be translated into virtual sport action, including rowing examples where ergometer handle pulls are represented as virtual oar movement and movement through water or scenery.
+Together, these sources justify why the two representation modes are a meaningful methodological contrast.
+They do not prove that either mode will produce higher embodiment, preference, realism, or comfort scores.}
+% SOURCE-CHECK:
+%   key: lamb1989kinematicComparison; soperHume2004rowingTechnique; rauterEtAl2013rowingTransfer
+%   md: MD Papers/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_markdown_bundle/lamb_1989_kinematic_comparison_ergometer_on_water_rowing_raw_page_marked.md, lines 20-63 and 419-500; MD Papers/soper_hume_2004_ideal_rowing_technique_biomechanics_markdown_bundle/soper_hume_2004_ideal_rowing_technique_biomechanics_raw_page_marked.md, lines 79-85 and 109-123; MD Papers/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_markdown_bundle/rauter_2013_transfer_complex_skill_learning_virtual_real_rowing_raw_page_marked.md, lines 149-199 and 283-320
+%   pdf: Lamb p. 1 and pp. 6-7; Soper/Hume p. 1 and p. 2; Rauter p. 2 and p. 3
+%   evidence: Ergometer and on-water rowing are related but not identical; common ergometers reproduce some rowing aspects but not all trunk/upper-limb/oar mechanics; rowing on water involves rower-boat-oar-water interaction and oar/blade mechanics.
+%   confidence: verified
+%   caution: Supports the mode rationale and rowing mismatch, not embodiment outcomes or study results.
+%
+% SOURCE-CHECK:
+%   key: neumannEtAl2018interactiveVrSport
+%   md: MD Papers/neumann_2018_interactive_virtual_reality_sport_systematic_review_markdown_bundle/neumann_2018_interactive_virtual_reality_sport_systematic_review_raw_page_marked.md, lines 105-123 and 404-419
+%   pdf: p. 4 and p. 12
+%   evidence: Interactive VR sport can translate physical effort on an interface into virtual sport performance; rowing handle pulls can be represented as virtual oar movements and greater exertion can drive virtual movement through water/scenery.
+%   confidence: verified
+%   caution: Supports VR sport mapping logic, not the exact thesis condition comparison as prior work.
 
-The planned design is within-subjects: every participant will experience both modes. This design is appropriate because the comparison concerns two alternative representations of one physical action, allowing each participant to serve as their own control. The condition order will be counterbalanced where possible to reduce order, learning, adaptation, and fatigue effects.
+The planned study uses a within-subject design.
+Each participant experiences both representation modes.
+This design is appropriate for the present evaluation because the main comparison concerns two representations of the same participant's own rowing action.
+Using the same participant in both conditions reduces the influence of individual differences in rowing experience, VR familiarity, physical ability, and subjective response tendencies.
+It also allows the analysis to focus on within-participant differences between the two representation modes rather than on differences between separate participant groups.
+\sourcechecknote{This paragraph gives the method rationale for a within-subject design.
+The claim is mainly a study-design decision, not a result from the literature.
+Mottelson et al. is useful as field-context because their review of VR body ownership illusion studies notes repeated-measures and within-subject practice in the embodiment literature.
+Seinfeld and Mueller provide a concrete VR embodiment example in which participants experienced multiple conditions and order was counterbalanced.
+Arndt et al. and Colombo et al. provide adjacent VR rowing / VR exercise examples where repeated conditions and condition-order management are used in prototype or exercise evaluation contexts.
+These sources support the reasonableness of the design pattern, but they are not general statistics authorities and do not prove that the current sample will be sufficiently powered.}
+% SOURCE-CHECK:
+%   key: mottelsonEtAl2023bodyOwnershipVr
+%   md: MD Papers/mottelson_2023_body_ownership_illusions_vr_markdown_bundle/mottelson_2023_body_ownership_illusions_vr_raw_page_marked.md, lines 1117-1125 and 1513-1520
+%   pdf: p. 22 / 42 and p. 29 / 42
+%   evidence: Review context for body ownership illusion studies, including repeated-measures/within-subject practice and sample/power context.
+%   confidence: verified
+%   caution: Field-context source, not a general experimental-design textbook.
+%
+% SOURCE-CHECK:
+%   key: seinfeldMueller2020detachedVirtualHands
+%   md: MD Papers/seinfeld_mueller_2020_visuomotor_feedback_detached_virtual_hands_markdown_bundle/seinfeld_mueller_2020_visuomotor_feedback_detached_virtual_hands_raw_page_marked.md, lines 119-132 and 297-323
+%   pdf: p. 2 and p. 5
+%   evidence: VR embodiment study example with within-group design, counterbalanced condition order, participant criteria, and procedure logic.
+%   confidence: verified
+%   caution: Detached virtual hands task, not rowing; use as methodological analogy only.
+%
+% SOURCE-CHECK:
+%   key: arndtEtAl2018vrRowingWorkouts; colomboEtAl2025vrCyclingEffort
+%   md: MD Papers/arndt_2018_vr_hmd_rowing_workouts_markdown_bundle/arndt_2018_vr_hmd_rowing_workouts_raw_page_marked.md, lines 219-253 and 265-274; MD Papers/colombo_2025_vr_cycling_immersion_interaction_effort_markdown_bundle/colombo_2025_vr_cycling_immersion_interaction_effort_raw_page_marked.md, lines 307-323
+%   pdf: Arndt p. 2 and p. 3; Colombo p. 3
+%   evidence: Adjacent VR rowing/exercise examples use repeated conditions, randomized order, warm-up/baseline, or screening logic.
+%   confidence: verified
+%   caution: Adjacent exercise/VR practice; do not import their exact procedures or results.
 
-\drafttodo{TODO:CONFIRM final counterbalancing scheme, condition labels, and whether the order assignment is random, alternating, or manually balanced.}
+Condition order should be counterbalanced where possible.
+Half of the participants should begin with the erg-centered mode and the other half with the boat-centered mode, if recruitment and scheduling make this feasible.
+If strict counterbalancing is not possible, the final order assignment procedure must be documented.
+This is important because order, learning, adaptation, fatigue, novelty, and VR discomfort could otherwise influence the ratings attributed to each representation.
+\sourcechecknote{This paragraph explains why condition order is part of the method rather than a minor logistical detail.
+Seinfeld and Mueller explicitly use counterbalanced condition order in a VR embodiment study and discuss training or learning effects.
+Colombo et al. randomize VR cycling conditions to minimize order effects such as learning, fatigue, and familiarity, while also noting that residual effects may remain.
+Arndt et al. randomized condition order in an HMD rowing-workout prototype.
+Together, these sources support the method rationale that order management reduces, but does not eliminate, order-related interpretation risks.
+The exact counterbalancing scheme for this thesis remains an author decision and must be confirmed before reporting.}
+% SOURCE-CHECK:
+%   key: seinfeldMueller2020detachedVirtualHands
+%   md: MD Papers/seinfeld_mueller_2020_visuomotor_feedback_detached_virtual_hands_markdown_bundle/seinfeld_mueller_2020_visuomotor_feedback_detached_virtual_hands_raw_page_marked.md, lines 297-323 and 638-684
+%   pdf: p. 5 and pp. 7-8
+%   evidence: Uses counterbalanced condition order and discusses training/learning effects.
+%   confidence: verified
+%   caution: Method analogy from detached virtual hands, not rowing.
+%
+% SOURCE-CHECK:
+%   key: colomboEtAl2025vrCyclingEffort
+%   md: MD Papers/colombo_2025_vr_cycling_immersion_interaction_effort_markdown_bundle/colombo_2025_vr_cycling_immersion_interaction_effort_raw_page_marked.md, lines 307-323 and 908-916
+%   pdf: p. 3 and p. 9
+%   evidence: Randomized condition exposure to minimize order effects such as learning, fatigue, or familiarity; also discusses residual fatigue/sickness limitations.
+%   confidence: verified
+%   caution: Cycling study, not rowing; method analogy only.
+%
+% SOURCE-CHECK:
+%   key: arndtEtAl2018vrRowingWorkouts
+%   md: MD Papers/arndt_2018_vr_hmd_rowing_workouts_markdown_bundle/arndt_2018_vr_hmd_rowing_workouts_raw_page_marked.md, lines 265-274
+%   pdf: p. 3
+%   evidence: VR rowing-workout pilot randomized condition order.
+%   confidence: verified
+%   caution: Pilot context; does not define this thesis' exact counterbalancing procedure.
 
-The first data-collection version does not include physiological threat measures, heart-rate measures, or a hand-offset probe. This keeps the initial evaluation focused on the main representation comparison: whether the two modes differ in reported ownership, agency, embodied action congruence, virtual hand/oar mapping, sport-action plausibility, perceived mismatch, and preference. Comfort and sickness symptoms will be handled as safety and debriefing observations rather than as embodiment outcomes.
+Each condition should use the same general exposure structure.
+Participants should receive the same type of instruction, the same calibration procedure, and a comparable rowing period in both modes.
+The rowing task should be performed at a comfortable, steady pace rather than as a maximal performance test.
+The purpose of the study is to evaluate subjective experience of the two representations, not to compare athletic performance under different training protocols.
+% TODO:CONFIRM exact familiarization duration, rowing duration, rest duration, instruction wording, and condition-order procedure before data collection.
+% SOURCE-CHECK:
+%   key: thesis protocol
+%   md: notes/04_study_design/04_study_design_non_questionnaire_evidence_pack.md, Section 4.1 Study Design and 4.4 Procedure
+%   pdf: not applicable
+%   evidence: The evidence pack identifies standardized exposure, familiarization, rowing duration, rest, and condition order as protocol details that must be confirmed by the author.
+%   confidence: needs manual check
+%   caution: Do not invent durations, pace targets, or performance goals before the study protocol is fixed.
+
+The first data-collection version focuses on the main representation comparison.
+Threat measures, heart-rate measures, and hand-offset or drift-style probes are not part of the primary study design unless they are explicitly added later.
+This keeps the evaluation focused on ownership, agency, body-location experience, rowing-specific mapping experience, comfort, and preference.
+If additional probes are introduced, they should be described as exploratory and should require separate justification in the method.
+% SOURCE-CHECK:
+%   key: thesis scope decision
+%   md: notes/04_study_design/04_study_design_non_questionnaire_evidence_pack.md, Section 4.1 Study Design
+%   pdf: not applicable
+%   evidence: The evidence pack treats exclusion of threat, heart-rate, and hand-offset probes as an internal scope decision that must match the final protocol.
+%   confidence: needs manual check
+%   caution: Do not present this as a literature recommendation; it is a first-study scope decision.
